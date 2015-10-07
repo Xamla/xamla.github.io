@@ -1,0 +1,12 @@
+# Site settings
+title: Xamla blog
+#email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Some facts and thoughts on robotics and computer vision.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://github.com/Xamla" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  Xamla
+
+# Build settings
+markdown: kramdown
