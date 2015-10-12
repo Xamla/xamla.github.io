@@ -7,43 +7,7 @@ categories: jekyll update
 mathjax: true
 ---
 
-
-### Short list of titles:
-
-[Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders](#Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders) <br />
-[RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features](#RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features) <br />
-[Learning Compound Multi-Step Controllers under Unknown Dynamics](#Learning Compound Multi-Step Controllers under Unknown Dynamics) <br />
-[Learning Descriptors for Object Recognition and 3D Pose Estimation](#Learning Descriptors for Object Recognition and 3D Pose Estimation) <br />
-[Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images](#Detection and 3D Pose Estimation) <br />
-[Freeze-Thaw Bayesian Optimization](#Freeze-Thaw Bayesian Optimization) <br />
-[Recurrent Spatial Transformer Networks](#Recurrent Spatial Transformer Networks) <br />
-[Spatial Transformer Networks](#Spatial Transformer Networks) <br />
-[R-CNN minus R](#R-CNN minus R) <br />
-[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](#Faster R-CNN) <br />
-[Fast R-CNN](#Fast R-CNN) <br />
-[Rich feature hierarchies for accurate object detection and semantic segmentation](#R-CNN) <br />
-[Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](#SPPNet) <br />
-[Visualizing and Understanding Convolutional Networks](#ZFNet) <br />
-[Very Deep Convolutional Networks for Large-Scale Image Recognition](#VGG) <br />
-[Going Deeper with Convolutions](#GoogLeNet) <br />
-[Fractional Max-Pooling](#Fractional Max-Pooling) <br />
-[Network In Network](#NiN) <br />
-[ImageNet Classification with Deep Convolutional Neural Networks](#AlexNet) <br />
-[Deep Learning using Linear Support Vector Machines](#Deep Learning using Linear Support Vector Machines) <br />
-[Deep Learning in Neural Networks: An Overview](#Deep Learning in Neural Networks: An Overview) <br />
-[A robust, coarse-to-ﬁne trafﬁc sign detection method](#Traffic Sign Detection) <br />
-[Deep Sparse Rectifier Neural Networks](#Deep Sparse Rectifier Neural Networks) <br />
-[Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](#Street View House Numbers) <br />
-[Large Scale Distributed Deep Networks](#Large Scale Distributed Deep Networks) <br />
-[Multi-column deep neural network for traffic sign classification](#Traffic Sign Classification) <br />
-[Understanding the Bias-Variance Tradeoff](#Bias-Variance Tradeoff) <br />
-[Understanding the difﬁculty of training deep feedforward neural networks](#Difficulty of Training DNN) <br />
-[On the importance of initialization and momentum in deep learning](#Initialization and Momentum) <br />
-[Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition](#MNIST) <br />
-[Building High-level Features Using Large Scale Unsupervised Learning](#High-level Features via Unsupervised Learning) <br />
-[Mitosis Detection in Breast Cancer Histology Images with Deep Neural Networks](#Mitosis Detection) <br />
-[Max-Pooling Convolutional Neural Networks for Vision-based Hand Gesture Recognition](#Hand Gesture Recognition) <br />
-
+#### [\\(\rightarrow\\) Index of titles](#Title index) <br />
 
 
 ### Papers with description:
@@ -246,19 +210,40 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 (J. Nagi, F. Ducatelle, G. A. Di Caro, D. Ciresan, U. Meier, A. Giusti, F. Nagi, J. Schmidhuber and L. M. Gambardella; Nov 2011)
 
 
+ <br />
 
+### <a name="Title index"></a>Index of titles:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[A robust, coarse-to-ﬁne trafﬁc sign detection method](#Traffic Sign Detection) <br />
+[Building High-level Features Using Large Scale Unsupervised Learning](#High-level Features via Unsupervised Learning) <br />
+[Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition](#MNIST) <br />
+[Deep Learning in Neural Networks: An Overview](#Deep Learning in Neural Networks: An Overview) <br />
+[Deep Learning using Linear Support Vector Machines](#Deep Learning using Linear Support Vector Machines) <br />
+[Deep Sparse Rectifier Neural Networks](#Deep Sparse Rectifier Neural Networks) <br />
+[Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images](#Detection and 3D Pose Estimation) <br />
+[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](#Faster R-CNN) <br />
+[Fast R-CNN](#Fast R-CNN) <br />
+[Fractional Max-Pooling](#Fractional Max-Pooling) <br />
+[Freeze-Thaw Bayesian Optimization](#Freeze-Thaw Bayesian Optimization) <br />
+[Going Deeper with Convolutions](#GoogLeNet) <br />
+[ImageNet Classification with Deep Convolutional Neural Networks](#AlexNet) <br />
+[Large Scale Distributed Deep Networks](#Large Scale Distributed Deep Networks) <br />
+[Learning Compound Multi-Step Controllers under Unknown Dynamics](#Learning Compound Multi-Step Controllers under Unknown Dynamics) <br />
+[Learning Descriptors for Object Recognition and 3D Pose Estimation](#Learning Descriptors for Object Recognition and 3D Pose Estimation) <br />
+[Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders](#Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders) <br />
+[Max-Pooling Convolutional Neural Networks for Vision-based Hand Gesture Recognition](#Hand Gesture Recognition) <br />
+[Mitosis Detection in Breast Cancer Histology Images with Deep Neural Networks](#Mitosis Detection) <br />
+[Multi-column deep neural network for traffic sign classification](#Traffic Sign Classification) <br />
+[Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](#Street View House Numbers) <br />
+[Network In Network](#NiN) <br />
+[On the importance of initialization and momentum in deep learning](#Initialization and Momentum) <br />
+[R-CNN minus R](#R-CNN minus R) <br />
+[Recurrent Spatial Transformer Networks](#Recurrent Spatial Transformer Networks) <br />
+[RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features](#RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features) <br />
+[Rich feature hierarchies for accurate object detection and semantic segmentation](#R-CNN) <br />
+[Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](#SPPNet) <br />
+[Spatial Transformer Networks](#Spatial Transformer Networks) <br />
+[Understanding the Bias-Variance Tradeoff](#Bias-Variance Tradeoff) <br />
+[Understanding the difﬁculty of training deep feedforward neural networks](#Difficulty of Training DNN) <br />
+[Very Deep Convolutional Networks for Large-Scale Image Recognition](#VGG) <br />
+[Visualizing and Understanding Convolutional Networks](#ZFNet) <br />
