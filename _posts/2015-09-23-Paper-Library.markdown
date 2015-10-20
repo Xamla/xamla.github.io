@@ -13,6 +13,63 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="ReNet"></a>[ReNet: A Recurrent Neural Network Based Alternative to Convolutional Networks](http://arxiv.org/abs/1505.00393)
+
+(F. Visin, K. Kastner, K. Cho, M. Matteucci, A. Courville and Y. Bengio; 3 May 2015)
+
+
+#### <a name="Weights and Connections Learning"></a>[Learning both Weights and Connections for Efficient Neural Networks](http://arxiv.org/abs/1506.02626)
+
+(S. Han, J. Pool, J. Tran and W. J. Dally; 8 Jun 2015)
+
+
+#### <a name="RGB-D Human Attribute Classification"></a>[Real-Time Full-Body Human Attribute Classification in RGB-D Using a Tessellation Boosting Approach](https://cld.pt/dl/download/5b6bf977-9bf2-403b-b88b-20bbfcc7ba4c/MyPapers08/pyc1940617492.pdf)
+
+(T. Linder and K. O. Arras; Sept 2015)
+
+
+#### <a name="SimTrack"></a>[SimTrack: A Simulation-based Framework for Scalable Real-time Object Pose Detection and Tracking](http://www.karlpauwels.com/downloads/iros_2015/Pauwels_IROS_2015.pdf)
+
+(K. Pauwels and D. Kragic; Sept 2015) <br />
+(Github-Code: https://github.com/karlpauwels/simtrack)
+
+
+#### <a name="FaceNet"></a>[FaceNet: A Unified Embedding for Face Recognition and Clustering](http://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1A_089.pdf)
+
+(F. Schroff, D. Kalenichenko and J. Philbin; 2015) <br />
+(Github-Code: https://github.com/cmusatyalab/openface)
+
+
+#### <a name="Memory foam"></a>[“Memory foam” approach to unsupervised learning](http://arxiv.org/abs/1107.0674)
+
+(N. B. Janson and C. J. Marsden; 4 Jul 2011)
+
+
+#### <a name="Grid LSTM"></a>[Grid Long Short-Term Memory](http://arxiv.org/abs/1507.01526)
+
+(N. Kalchbrenner, I. Danihelka and A. Graves; 6 Jul 2015)
+
+
+#### <a name="DeepCamera"></a>[DeepCamera: A Unified Framework for Recognizing Places-of-Interest based on Deep ConvNets](http://dl.acm.org/citation.cfm?id=2806620)
+
+(P. Peng, H. Chen, L. Shou, K. Chen, G. Chen and C. Xu; 2015)
+
+
+#### <a name="Look Twice"></a>[Look and Think Twice: Capturing Top-Down Visual Attention with Feedback Convolutional Neural Network](http://web.engr.illinois.edu/~xliu102/assets/papers/iccv2015_fnn.pdf)
+
+(C. Cao, X. Liu, Y. Yang, Y. Yu, J. Wang, Z. Wang, Y. Huang, L. Wang, C. Huang, W. Xu, D. Ramanan and T. S. Huang; 2015)
+
+*Einführung von "Feedback-Loops" in vorwärtsgerichteten ConvNets, die den Aktivierungsstatus der inneren Neuronen gemäß den Ergebnissen der oberen Schicht (z.B. der Ausgabe der Klassen-Neuronen) optimieren. 
+D.h. wenn ein semantischer Stimulus der oberen Schicht wie z.B. "Panda" gegeben ist, werden durch eine iterative Optimierung in den Feedback-Loops nur solche Neuronen der inneren Schichten aktiviert, welche mit dem Konzept "Panda" verbunden sind, so dass auch nur solche Regionen in der Visualisierung erfasst werden, die für das Konzept "Panda" typisch ("salient") sind. 
+Genauer wird das Verhalten der ReLU- und Max-Pooling-Schichten (beide enthalten die "Max-Funktion") als eine Menge von binären Aktivierungsvariablen \\(z \in\\) {0, 1} sogenannten "Gates", die durch die Eingabe gesteuert werden, neu interpretiert. Dadurch können nach dem Sammeln von Informationen in der vorwärtsgerichteten Phase, Singale mit nur geringem Beitrag zur Entscheidungsfindung bzw. mit irrelevanter Information für ein bestimmtes Label in der rückwärtsgerichteten Phase eliminiert werden. Der Feedback-Mechanismus wird als Optimierungsproblem formuliert, der die Zahl der aktiven Neuronen minimiert und dabei den "Score" der Zielklasse maximiert, indem die binären Neuronen-Aktivierungen \\(z\\) jedes inneren Neurons entsprechend angepasst werden. Um dieses Optimierungsproblem in polynomialer Zeit lösen zu können, werden die ganzzahligen Nebenbedingungen \\(z \in\\) {0, 1} durch die relaxierten Nebenbedingungen \\(0 \leq z \leq 1\\) ersetzt ([LP-Relaxation](https://de.wikipedia.org/wiki/LP-Relaxation)).
+Durch die Feedback-Loops wird der menschliche Prozess der visuellen Aufmerksamkeit, nämlich das Fokussieren einzelner Objekte nach einem ersten flüchtigen Blick auf das Gesamtbild, nachgeahmt. Der erste flüchtige Blick wird hier durch eine "weakly-supervised" Objekt-Lokalisierung nachgebildet, um eine erste grobe Schätzung der Objektregionen zu erhalten. Diese "weakly-supervised" Objekt-Lokalisierung wird mittels "Salience Maps" realisiert: Bei gegebenem Eingangsbild und entsprechender "Salience Map" für eine bestimmte Klasse, wird eine Objekt-Segmentierungsmaske durch eine einfache Schwellwertbildung bestimmt. Dann wird die enganliegenste Bounding Box um diese Segmentierungsmaske ermittelt. Das Fokussieren wird schließlich realisiert, indem das Netzwerk auf diese Bounding Box-Regionen fokussiert wird, um die finale Klassifizierung durchzuführen. Dieses Fokussieren verbessert die Klassifizierungsgenauigkeit besonders für sehr kleine Objekte.*
+
+
+#### <a name="DeepBox"></a>[DeepBox: Learning Objectness with Convolutional Networks](http://arxiv.org/abs/1505.02146)
+
+(W. Kuo, B. Hariharan and J. Malik; 8 May 2015)
+
+
 #### <a name="Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders"></a>[Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders](http://arxiv.org/abs/1509.06113)
 
 (C. Finn, X. Y. Tan, Y. Duan, T. Darrell, S. Levine and Pieter Abbeel; 21 Sep 2015)
@@ -217,33 +274,44 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [A robust, coarse-to-ﬁne trafﬁc sign detection method](#Traffic Sign Detection) <br />
 [Building High-level Features Using Large Scale Unsupervised Learning](#High-level Features via Unsupervised Learning) <br />
 [Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition](#MNIST) <br />
+[DeepBox: Learning Objectness with Convolutional Networks](#DeepBox) <br />
+[DeepCamera: A Unified Framework for Recognizing Places-of-Interest based on Deep ConvNets](#DeepCamera) <br />
 [Deep Learning in Neural Networks: An Overview](#Deep Learning in Neural Networks: An Overview) <br />
 [Deep Learning using Linear Support Vector Machines](#Deep Learning using Linear Support Vector Machines) <br />
 [Deep Sparse Rectifier Neural Networks](#Deep Sparse Rectifier Neural Networks) <br />
 [Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images](#Detection and 3D Pose Estimation) <br />
+[FaceNet: A Unified Embedding for Face Recognition and Clustering](#FaceNet) <br />
 [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](#Faster R-CNN) <br />
 [Fast R-CNN](#Fast R-CNN) <br />
 [Fractional Max-Pooling](#Fractional Max-Pooling) <br />
 [Freeze-Thaw Bayesian Optimization](#Freeze-Thaw Bayesian Optimization) <br />
 [Going Deeper with Convolutions](#GoogLeNet) <br />
+[Grid Long Short-Term Memory](#Grid LSTM) <br />
 [ImageNet Classification with Deep Convolutional Neural Networks](#AlexNet) <br />
 [Large Scale Distributed Deep Networks](#Large Scale Distributed Deep Networks) <br />
+[Learning both Weights and Connections for Efficient Neural Networks](#Weights and Connections Learning) <br />
 [Learning Compound Multi-Step Controllers under Unknown Dynamics](#Learning Compound Multi-Step Controllers under Unknown Dynamics) <br />
 [Learning Descriptors for Object Recognition and 3D Pose Estimation](#Learning Descriptors for Object Recognition and 3D Pose Estimation) <br />
 [Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders](#Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders) <br />
+[Look and Think Twice: Capturing Top-Down Visual Attention with Feedback Convolutional Neural Network](#Look Twice)
 [Max-Pooling Convolutional Neural Networks for Vision-based Hand Gesture Recognition](#Hand Gesture Recognition) <br />
+[“Memory foam” approach to unsupervised learning](#Memory foam) <br />
 [Mitosis Detection in Breast Cancer Histology Images with Deep Neural Networks](#Mitosis Detection) <br />
 [Multi-column deep neural network for traffic sign classification](#Traffic Sign Classification) <br />
 [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](#Street View House Numbers) <br />
 [Network In Network](#NiN) <br />
 [On the importance of initialization and momentum in deep learning](#Initialization and Momentum) <br />
+[Real-Time Full-Body Human Attribute Classification in RGB-D Using a Tessellation Boosting Approach](#RGB-D Human Attribute Classification) <br />
 [R-CNN minus R](#R-CNN minus R) <br />
 [Recurrent Spatial Transformer Networks](#Recurrent Spatial Transformer Networks) <br />
+[ReNet: A Recurrent Neural Network Based Alternative to Convolutional Networks](#ReNet) <br />
 [RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features](#RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features) <br />
 [Rich feature hierarchies for accurate object detection and semantic segmentation](#R-CNN) <br />
+[SimTrack: A Simulation-based Framework for Scalable Real-time Object Pose Detection and Tracking](#SimTrack) <br />
 [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](#SPPNet) <br />
 [Spatial Transformer Networks](#Spatial Transformer Networks) <br />
 [Understanding the Bias-Variance Tradeoff](#Bias-Variance Tradeoff) <br />
 [Understanding the difﬁculty of training deep feedforward neural networks](#Difficulty of Training DNN) <br />
 [Very Deep Convolutional Networks for Large-Scale Image Recognition](#VGG) <br />
 [Visualizing and Understanding Convolutional Networks](#ZFNet) <br />
+
