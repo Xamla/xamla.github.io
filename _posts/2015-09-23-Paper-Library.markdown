@@ -104,6 +104,19 @@ Durch die Feedback-Loops wird der menschliche Prozess der visuellen Aufmerksamke
 ([*Review*]({{ site.baseurl }}/jekyll/update/2015/10/01/Review-of-Detection-and-Fine-3D-Pose-Estimation-of-Texture-less-Objects-in-RGBD-Images.html))
 
 
+#### <a name="Atari1"></a>[Playing Atari with Deep Reinforcement Learning](http://arxiv.org/abs/1312.5602)
+
+(V. Mnih, K. Kavukcuoglu, D. Silver, A. Graves, I. Antonoglou, D. Wierstra and M. Riedmiller; 19 Dec 2013)
+
+
+#### <a name="Atari2"></a>[Human-level control through deep reinforcement learning](http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D)
+(bzw. http://rdcu.be/cdlg)
+
+(V. Mnih, K. Kavukcuoglu, D. Silver, A. A. Rusu, J. Veness, M. G. Bellemare, A. Graves, M. Riedmiller, A. K. Fidjeland, G. Ostrovski, S. Petersen, C. Beattie, A. Sadik, I. Antonoglou, H. King, D. Kumaran, D. Wierstra, S. Legg and D. Hassabis; 25 Feb 2015)
+
+([Kritik von J. Schmidhuber](https://plus.google.com/100849856540000067209/posts/eLQf4KC97Bs))
+
+
 #### <a name="Freeze-Thaw Bayesian Optimization"></a>[Freeze-Thaw Bayesian Optimization](http://arxiv.org/abs/1406.3896)
 
 (K. Swersky, J. Snoek and R. P. Adams; 16 Jun 2014)
@@ -286,6 +299,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Freeze-Thaw Bayesian Optimization](#Freeze-Thaw Bayesian Optimization) <br />
 [Going Deeper with Convolutions](#GoogLeNet) <br />
 [Grid Long Short-Term Memory](#Grid LSTM) <br />
+[Human-level control through deep reinforcement learning](#Atari2) <br />
 [ImageNet Classification with Deep Convolutional Neural Networks](#AlexNet) <br />
 [Large Scale Distributed Deep Networks](#Large Scale Distributed Deep Networks) <br />
 [Learning both Weights and Connections for Efficient Neural Networks](#Weights and Connections Learning) <br />
@@ -300,6 +314,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](#Street View House Numbers) <br />
 [Network In Network](#NiN) <br />
 [On the importance of initialization and momentum in deep learning](#Initialization and Momentum) <br />
+[Playing Atari with Deep Reinforcement Learning](#Atari1) <br />
 [Real-Time Full-Body Human Attribute Classification in RGB-D Using a Tessellation Boosting Approach](#RGB-D Human Attribute Classification) <br />
 [R-CNN minus R](#R-CNN minus R) <br />
 [Recurrent Spatial Transformer Networks](#Recurrent Spatial Transformer Networks) <br />
