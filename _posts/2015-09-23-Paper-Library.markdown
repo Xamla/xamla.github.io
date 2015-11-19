@@ -13,6 +13,20 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="HyperparamOpt"></a>[Gradient-based Hyperparameter Optimization through Reversible Learning](http://arxiv.org/abs/1502.03492)
+
+(D. Maclaurin, D. Duvenaud and R. P. Adams; 11 Feb 2015)
+
+[Interessante Rezension zu dem Paper](https://www.evernote.com/shard/s189/sh/eb8503b0-f63d-49b7-b51f-747b7e10e69e/4cabf65c28de7f388417c0c4fba71c29)
+
+
+#### <a name="SpeedLearning"></a>[Speed learning on the fly](http://arxiv.org/abs/1511.02540)
+
+(P.-Y. Massé and Y. Ollivier; 8 Nov 2015)
+
+[Interessante Rezension zu dem Paper](https://www.evernote.com/shard/s189/sh/b962600a-48cd-4b6c-98d5-17874f011d3f/b434df41c0e343cbfcd4f77c8148c500)
+
+
 #### <a name="ReNet"></a>[ReNet: A Recurrent Neural Network Based Alternative to Convolutional Networks](http://arxiv.org/abs/1505.00393)
 
 (F. Visin, K. Kastner, K. Cho, M. Matteucci, A. Courville and Y. Bengio; 3 May 2015)
@@ -298,6 +312,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Fractional Max-Pooling](#Fractional Max-Pooling) <br />
 [Freeze-Thaw Bayesian Optimization](#Freeze-Thaw Bayesian Optimization) <br />
 [Going Deeper with Convolutions](#GoogLeNet) <br />
+[Gradient-based Hyperparameter Optimization through Reversible Learning](#HyperparamOpt) <br />
 [Grid Long Short-Term Memory](#Grid LSTM) <br />
 [Human-level control through deep reinforcement learning](#Atari2) <br />
 [ImageNet Classification with Deep Convolutional Neural Networks](#AlexNet) <br />
@@ -324,6 +339,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [SimTrack: A Simulation-based Framework for Scalable Real-time Object Pose Detection and Tracking](#SimTrack) <br />
 [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](#SPPNet) <br />
 [Spatial Transformer Networks](#Spatial Transformer Networks) <br />
+[Speed learning on the fly](#SpeedLearning) <br />
 [Understanding the Bias-Variance Tradeoff](#Bias-Variance Tradeoff) <br />
 [Understanding the difﬁculty of training deep feedforward neural networks](#Difficulty of Training DNN) <br />
 [Very Deep Convolutional Networks for Large-Scale Image Recognition](#VGG) <br />
