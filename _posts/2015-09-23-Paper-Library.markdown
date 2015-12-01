@@ -13,6 +13,11 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="ELUs"></a>[Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](http://arxiv.org/abs/1511.07289)
+
+(D.-A. Clevert, T. Unterthiner and S. Hochreiter; 23 Nov 2015)
+
+
 #### <a name="HyperparamOpt"></a>[Gradient-based Hyperparameter Optimization through Reversible Learning](http://arxiv.org/abs/1502.03492)
 
 (D. Maclaurin, D. Duvenaud and R. P. Adams; 11 Feb 2015)
@@ -307,6 +312,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Deep Sparse Rectifier Neural Networks](#Deep Sparse Rectifier Neural Networks) <br />
 [Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images](#Detection and 3D Pose Estimation) <br />
 [FaceNet: A Unified Embedding for Face Recognition and Clustering](#FaceNet) <br />
+[Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](#ELUs) <br />
 [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](#Faster R-CNN) <br />
 [Fast R-CNN](#Fast R-CNN) <br />
 [Fractional Max-Pooling](#Fractional Max-Pooling) <br />
