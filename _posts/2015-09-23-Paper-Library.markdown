@@ -13,6 +13,11 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="Deconv"></a>[Learning Deconvolution Network for Semantic Segmentation](http://cvlab.postech.ac.kr/research/deconvnet/)
+
+(H. Noh,	S. Hong	and B. Han; 2015)
+
+
 #### <a name="ELUs"></a>[Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](http://arxiv.org/abs/1511.07289)
 
 (D.-A. Clevert, T. Unterthiner and S. Hochreiter; 23 Nov 2015)
@@ -325,6 +330,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Large Scale Distributed Deep Networks](#Large Scale Distributed Deep Networks) <br />
 [Learning both Weights and Connections for Efficient Neural Networks](#Weights and Connections Learning) <br />
 [Learning Compound Multi-Step Controllers under Unknown Dynamics](#Learning Compound Multi-Step Controllers under Unknown Dynamics) <br />
+[Learning Deconvolution Network for Semantic Segmentation](#Deconv) <br />
 [Learning Descriptors for Object Recognition and 3D Pose Estimation](#Learning Descriptors for Object Recognition and 3D Pose Estimation) <br />
 [Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders](#Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders) <br />
 [Look and Think Twice: Capturing Top-Down Visual Attention with Feedback Convolutional Neural Network](#Look Twice)
