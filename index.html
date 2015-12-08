@@ -20,6 +20,18 @@ layout: default
         </h2>
   	</li>
   	
+  	<li>
+  		<h2>
+          <a class="post-link" href="{{ "/paper-library/" | prepend: site.baseurl }}">Paper Library</a>
+        </h2>
+  	</li>
+  	
+  	<li>
+  		<h2>
+          <a class="post-link" href="{{ "/convnet-architectures/" | prepend: site.baseurl }}">Prominent ConvNet Architectures</a>
+        </h2>
+  	</li>
+  	
     {% for post in site.posts %}
       {% if 'main page' == post.group %}
       <li>
