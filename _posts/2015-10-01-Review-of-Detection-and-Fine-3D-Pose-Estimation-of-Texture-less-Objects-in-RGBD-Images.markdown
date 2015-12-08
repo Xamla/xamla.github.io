@@ -1,6 +1,6 @@
 ---
 layout: post
-group: subpage
+group: review
 title:  "Review of Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images"
 date:   2015-10-01 13:51:00
 categories: jekyll update
