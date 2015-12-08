@@ -1,11 +1,10 @@
 ---
 layout: post
-group: main page
-title:  "Prominent ConvNet Architectures"
-date:   2015-09-21 13:51:00
-categories: jekyll update
+title: "Prominent ConvNet Architectures"
+permalink: /convnet-architectures/
 mathjax: true
 ---
+
 
 <style>
   table{border-spacing: 0px 0px;}
