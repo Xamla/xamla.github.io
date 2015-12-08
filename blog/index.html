@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Xamla Blog</h1>
+  <h2>Some facts and thoughts on robotics and computer vision</h2>
+
+    {% for post in site.posts %}
+      {% if 'blog post' == post.group %}
+      
+			<div class="post">
+				<div class="post-header blog">
+					<h1>{{ post.title }}</h1>
+				</div>
+				<article class="post-content">
+					{{ post.content }}
+				</article>
+			</div>      
+      
+      {% endif %}
+    {% endfor %}
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+  
+  <!-- mathjax -->
+  {% if page.mathjax %}
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  {% endif %}
+
+</div>
