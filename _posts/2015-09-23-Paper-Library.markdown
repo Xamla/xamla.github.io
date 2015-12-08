@@ -13,6 +13,11 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="Multi-scale video prediction"></a>[Deep multi-scale video prediction beyond mean square error](http://arxiv.org/abs/1511.05440)
+
+(M. Mathieu, C. Couprie and Y. LeCun; 17 Nov 2015)
+
+
 #### <a name="Inception2"></a>[Rethinking the Inception Architecture for Computer Vision](http://arxiv.org/abs/1512.00567)
 
 (C. Szegedy, V. Vanhoucke, S. Ioffe, J. Shlens and Z. Wojna; 2 Dec 2015)
@@ -319,6 +324,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [DeepCamera: A Unified Framework for Recognizing Places-of-Interest based on Deep ConvNets](#DeepCamera) <br />
 [Deep Learning in Neural Networks: An Overview](#Deep Learning in Neural Networks: An Overview) <br />
 [Deep Learning using Linear Support Vector Machines](#Deep Learning using Linear Support Vector Machines) <br />
+[Deep multi-scale video prediction beyond mean square error](#Multi-scale video prediction) <br />
 [Deep Sparse Rectifier Neural Networks](#Deep Sparse Rectifier Neural Networks) <br />
 [Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images](#Detection and 3D Pose Estimation) <br />
 [FaceNet: A Unified Embedding for Face Recognition and Clustering](#FaceNet) <br />
