@@ -13,6 +13,11 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="Inception2"></a>[Rethinking the Inception Architecture for Computer Vision](http://arxiv.org/abs/1512.00567)
+
+(C. Szegedy, V. Vanhoucke, S. Ioffe, J. Shlens and Z. Wojna; 2 Dec 2015)
+
+
 #### <a name="Deconv"></a>[Learning Deconvolution Network for Semantic Segmentation](http://cvlab.postech.ac.kr/research/deconvnet/)
 
 (H. Noh,	S. Hong	and B. Han; 2015)
@@ -346,6 +351,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [R-CNN minus R](#R-CNN minus R) <br />
 [Recurrent Spatial Transformer Networks](#Recurrent Spatial Transformer Networks) <br />
 [ReNet: A Recurrent Neural Network Based Alternative to Convolutional Networks](#ReNet) <br />
+[Rethinking the Inception Architecture for Computer Vision](#Inception2) <br />
 [RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features](#RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features) <br />
 [Rich feature hierarchies for accurate object detection and semantic segmentation](#R-CNN) <br />
 [SimTrack: A Simulation-based Framework for Scalable Real-time Object Pose Detection and Tracking](#SimTrack) <br />
