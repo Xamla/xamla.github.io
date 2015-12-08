@@ -1,12 +1,30 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-</head>
+		<!-- Charset -->
+		<meta charset="utf-8">
+		<!-- link to alternate language version -->
+		<link rel="alternate" hreflang="en" href="index_en.html" />
+		<!-- Always force latest IE rendering engine (even in intranet) -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+		<!-- Important stuff for SEO, don't neglect. (And don't dupicate values across your site!) -->
+		<title>Xamla - Eine kostenlose, open source IDE für intelligente Robotik</title>
+		<meta name="author" content="PROVISIO GmbH" />
+		<meta name="description" content="Xamla ist eine kostenlose, open source IDE für intelligente Robotik. Wir bringen Robotern das Sehen, Fühlen, und Verstehen einer Szene bei. Auf Basis von Open Source entwickelt darf das System auch zu kommerziellen Zwecken KOSTENLOS verwendet werden. Eine ständig wachsende Anzahl von Anwendungen." />
+		<meta name="keywords" content="robotik, open source, IDE, programmierung, automation, sensoren, Machine Learning, Computer Vision, Evolutionary Computing, intelligent robotics, virtual reality" />	
+		<!-- Who owns the content of this site? -->
+		<meta name="Copyright" content="PROVISIO GmbH" />	
+		<!--  Mobile Viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="favicon.ico" />
+		<!-- Include Google Font -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+		<!-- Include basic stylesheets -->
+		<link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}" />
+		<!-- Include mobile stylesheets -->
+		<link rel="stylesheet" media="only screen and (max-width: 479px)" href="{{ "/css/320.css" | prepend: site.baseurl }}">
+		<link rel="stylesheet" media="only screen and (min-width: 480px) and (max-width: 767px)" href="{{ "/css/480.css" | prepend: site.baseurl }}">
+		<link rel="stylesheet" media="only screen and (min-width: 768px) and (max-width: 1023px)" href="{{ "/css/768.css" | prepend: site.baseurl }}">
+		<link rel="stylesheet" media="only screen and (min-width: 1024px) and (max-width: 1279px)" href="{{ "/css/1024.css" | prepend: site.baseurl }}">	
+		<!-- jQuery -->
+		<script src="{{ "/js/jquery-1.11.3.js" | prepend: site.baseurl }}"></script>	
+	</head>

@@ -1,20 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="de-DE">
 
-  {% include head.html %}
+	{% include head.html %}
 
-  <body>
+	<body>
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    <section class="info white">
+		<div class="section-wrapper">
+        	{{ content }}
+		</div>
+    </section>
 
     {% include footer.html %}
+    
+	<script>
+	    /* Nav Popup */
+	    $(document).on('click', '#nav-popup-openclose', function () {
+	        $('#nav-popup').toggleClass('invisible');
+	        $('#nav-popup-openclose').toggleClass('open');
+	        $('#nav-popup-openclose').toggleClass('closed');
+	    });
+	    
+	    /* Smooth Scrolling für interne Links */
+	    $('a').click(function(){
+		    $('html, body').animate({
+		        scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+		    }, 500);
+		    return false;
+		});
+		
+		/* Banner animation */
+		$( window ).load(function() {
+			$('#banner-screen').toggleClass('loaded');
+		});
+	</script>
 
-  </body>
+	</body>
 
 </html>

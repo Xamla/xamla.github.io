@@ -1,0 +1,42 @@
+.section-wrapper {
+	max-width: 648px;
+}
+
+.section-wrapper .section-text {
+	width: 348px;
+}
+
+.section-wrapper .section-image {
+	width: 240px;
+}
+
+	.section-image.left {
+		margin-right: 60px;
+	}
+	
+	.section-image.right {
+		margin-left: 60px;
+	}
+	
+section.banner {
+	height: 450px;
+}
+
+	section.banner > #banner-screen {
+		background-size: contain;
+	    height: 187px;
+	    width: 330px;
+	    margin-left: -165px;
+	    bottom: 135px;
+	    left: 50%;
+	}
+	
+	section.banner > #banner-person {
+		background-size: contain;
+		display: block;
+		height: 242px;
+    	width: 260px;
+    	margin-left: -130px; /* center image */
+		bottom: 0;
+		left: 50%;
+	}
