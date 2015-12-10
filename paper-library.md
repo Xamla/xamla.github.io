@@ -11,6 +11,11 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="Learning to think"></a>[On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models](http://arxiv.org/abs/1511.09249)
+
+(J. Schmidhuber; 30 Nov 2015)
+
+
 #### <a name="Multi-scale video prediction"></a>[Deep multi-scale video prediction beyond mean square error](http://arxiv.org/abs/1511.05440)
 
 (M. Mathieu, C. Couprie and Y. LeCun; 17 Nov 2015)
@@ -349,6 +354,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Multi-column deep neural network for traffic sign classification](#Traffic Sign Classification) <br />
 [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](#Street View House Numbers) <br />
 [Network In Network](#NiN) <br />
+[On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models](#Learning to think) <br />
 [On the importance of initialization and momentum in deep learning](#Initialization and Momentum) <br />
 [Playing Atari with Deep Reinforcement Learning](#Atari1) <br />
 [Real-Time Full-Body Human Attribute Classification in RGB-D Using a Tessellation Boosting Approach](#RGB-D Human Attribute Classification) <br />
