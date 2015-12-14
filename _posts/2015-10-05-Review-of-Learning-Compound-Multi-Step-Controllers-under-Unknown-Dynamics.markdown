@@ -3,7 +3,7 @@ layout: post
 group: review
 title:  "Review of Learning Compound Multi-Step Controllers under Unknown Dynamics"
 date:   2015-10-05 10:00:00
-categories: jekyll update
+categories: update
 mathjax: true
 ---
 
