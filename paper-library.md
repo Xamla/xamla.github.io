@@ -13,7 +13,9 @@ mathjax: true
 
 #### <a name="Deep Residual Learning for Image Recognition"></a>[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385)
 
-(K. He, X. Zhang, S. Ren and J. Sun; 10 Dec 2015)
+(K. He, X. Zhang, S. Ren and J. Sun; 10 Dec 2015) 
+
+*Gewinner der "ImageNet Large Scale Visual Recognition Challeng" (ILSVRC) 2015 in den Rubriken "Object Detection" und "Localization".*
 
 
 #### <a name="Learning to think"></a>[On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models](http://arxiv.org/abs/1511.09249)
