@@ -11,6 +11,11 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="Deep Residual Learning for Image Recognition"></a>[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385)
+
+(K. He, X. Zhang, S. Ren and J. Sun; 10 Dec 2015)
+
+
 #### <a name="Learning to think"></a>[On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models](http://arxiv.org/abs/1511.09249)
 
 (J. Schmidhuber; 30 Nov 2015)
@@ -328,6 +333,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Deep Learning in Neural Networks: An Overview](#Deep Learning in Neural Networks: An Overview) <br />
 [Deep Learning using Linear Support Vector Machines](#Deep Learning using Linear Support Vector Machines) <br />
 [Deep multi-scale video prediction beyond mean square error](#Multi-scale video prediction) <br />
+[Deep Residual Learning for Image Recognition](#Deep Residual Learning for Image Recognition) <br />
 [Deep Sparse Rectifier Neural Networks](#Deep Sparse Rectifier Neural Networks) <br />
 [Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images](#Detection and 3D Pose Estimation) <br />
 [FaceNet: A Unified Embedding for Face Recognition and Clustering](#FaceNet) <br />
