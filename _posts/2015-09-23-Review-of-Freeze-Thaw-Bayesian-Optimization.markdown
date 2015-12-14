@@ -3,7 +3,7 @@ layout: post
 group: review
 title:  "Review of Freeze-Thaw Bayesian Optimization"
 date:   2015-09-23 13:51:00
-categories: jekyll update
+categories: update
 ---
 
 **Paper:**
