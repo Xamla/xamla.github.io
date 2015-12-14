@@ -349,6 +349,10 @@ body {}
 						border-top: none;
 					}
 					
+					article.post-content > p {
+						padding-bottom: 12px;
+					}
+					
 					article.post-content > ul {
 						margin-left: 20px;
 					}
