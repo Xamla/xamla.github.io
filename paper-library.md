@@ -11,6 +11,16 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="Deep Generative Image Models"></a>[Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](http://arxiv.org/abs/1506.05751)
+
+(E. Denton, S. Chintala, A. Szlam and R. Fergus; 18 Jun 2015)
+
+
+#### <a name="Inside-Outside Net"></a>[Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks](http://arxiv.org/abs/1512.04143)
+
+(S. Bell, C. L. Zitnick, K. Bala and R. Girshick; 14 Dec 2015)
+
+
 #### <a name="Deep Residual Learning for Image Recognition"></a>[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385)
 
 (K. He, X. Zhang, S. Ren and J. Sun; 10 Dec 2015) 
@@ -332,6 +342,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition](#MNIST) <br />
 [DeepBox: Learning Objectness with Convolutional Networks](#DeepBox) <br />
 [DeepCamera: A Unified Framework for Recognizing Places-of-Interest based on Deep ConvNets](#DeepCamera) <br />
+[Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](#Deep Generative Image Models) <br />
 [Deep Learning in Neural Networks: An Overview](#Deep Learning in Neural Networks: An Overview) <br />
 [Deep Learning using Linear Support Vector Machines](#Deep Learning using Linear Support Vector Machines) <br />
 [Deep multi-scale video prediction beyond mean square error](#Multi-scale video prediction) <br />
@@ -349,6 +360,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Grid Long Short-Term Memory](#Grid LSTM) <br />
 [Human-level control through deep reinforcement learning](#Atari2) <br />
 [ImageNet Classification with Deep Convolutional Neural Networks](#AlexNet) <br />
+[Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks](#Inside-Outside Net) <br />
 [Large Scale Distributed Deep Networks](#Large Scale Distributed Deep Networks) <br />
 [Learning both Weights and Connections for Efficient Neural Networks](#Weights and Connections Learning) <br />
 [Learning Compound Multi-Step Controllers under Unknown Dynamics](#Learning Compound Multi-Step Controllers under Unknown Dynamics) <br />
