@@ -11,6 +11,21 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="DeconvNet for Semantic Segmentation"></a>[Learning Deconvolution Network for Semantic Segmentation](http://arxiv.org/abs/1505.04366)
+
+(H. Noh, S. Hong and B. Han; 17 May 2015)
+
+
+#### <a name="Learning to Segment Object Candidates"></a>[Learning to Segment Object Candidates](http://arxiv.org/abs/1506.06204)
+
+(P. O. Pinheiro, R. Collobert and P. Dollar; 20 Jun 2015)
+
+
+#### <a name="Pixel-level Labeling with CNNs"></a>[From Image-level to Pixel-level Labeling with Convolutional Networks](http://arxiv.org/abs/1411.6228)
+
+(P. O. Pinheiro and R. Collobert; 23 Nov 2014)
+
+
 #### <a name="Deep Generative Image Models"></a>[Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](http://arxiv.org/abs/1506.05751)
 
 (E. Denton, S. Chintala, A. Szlam and R. Fergus; 18 Jun 2015)
