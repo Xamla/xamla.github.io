@@ -11,11 +11,6 @@ mathjax: true
 ### Papers with description:
 
 
-#### <a name="DeconvNet for Semantic Segmentation"></a>[Learning Deconvolution Network for Semantic Segmentation](http://arxiv.org/abs/1505.04366)
-
-(H. Noh, S. Hong and B. Han; 17 May 2015)
-
-
 #### <a name="Learning to Segment Object Candidates"></a>[Learning to Segment Object Candidates](http://arxiv.org/abs/1506.06204)
 
 (P. O. Pinheiro, R. Collobert and P. Dollar; 20 Jun 2015)
@@ -60,7 +55,7 @@ mathjax: true
 
 #### <a name="Deconv"></a>[Learning Deconvolution Network for Semantic Segmentation](http://cvlab.postech.ac.kr/research/deconvnet/)
 
-(H. Noh,	S. Hong	and B. Han; 2015)
+(H. Noh,	S. Hong	and B. Han; 17 May 2015)
 
 
 #### <a name="ELUs"></a>[Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](http://arxiv.org/abs/1511.07289)
@@ -370,6 +365,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Fast R-CNN](#Fast R-CNN) <br />
 [Fractional Max-Pooling](#Fractional Max-Pooling) <br />
 [Freeze-Thaw Bayesian Optimization](#Freeze-Thaw Bayesian Optimization) <br />
+[From Image-level to Pixel-level Labeling with Convolutional Networks](#Pixel-level Labeling with CNNs) <br />
 [Going Deeper with Convolutions](#GoogLeNet) <br />
 [Gradient-based Hyperparameter Optimization through Reversible Learning](#HyperparamOpt) <br />
 [Grid Long Short-Term Memory](#Grid LSTM) <br />
@@ -381,6 +377,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Learning Compound Multi-Step Controllers under Unknown Dynamics](#Learning Compound Multi-Step Controllers under Unknown Dynamics) <br />
 [Learning Deconvolution Network for Semantic Segmentation](#Deconv) <br />
 [Learning Descriptors for Object Recognition and 3D Pose Estimation](#Learning Descriptors for Object Recognition and 3D Pose Estimation) <br />
+[Learning to Segment Object Candidates](#Learning to Segment Object Candidates) <br />
 [Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders](#Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders) <br />
 [Look and Think Twice: Capturing Top-Down Visual Attention with Feedback Convolutional Neural Network](#Look Twice)
 [Max-Pooling Convolutional Neural Networks for Vision-based Hand Gesture Recognition](#Hand Gesture Recognition) <br />
