@@ -11,16 +11,18 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="Deconv"></a>[Learning Deconvolution Network for Semantic Segmentation](http://cvlab.postech.ac.kr/research/deconvnet/)
+
+(H. Noh,	S. Hong	and B. Han; 17 May 2015)
+
+*...*
+
+
 #### <a name="Learning to Segment Object Candidates"></a>[Learning to Segment Object Candidates](http://arxiv.org/abs/1506.06204)
 
 (P. O. Pinheiro, R. Collobert and P. Dollar; 20 Jun 2015)
 
 *ConvNet approach for generating object proposals for the object detection task. Main difference to "Faster R-CNN": The method presented here (called "DeepMask") generates segmentation proposals instead of less informative bounding box proposals. The core of this approach is a ConvNet which jointly predicts a segmentation mask given an input patch and assigns an object score corresponding to how likely the patch is to contain an object. A large part of the network is shared between those two tasks: only the last few network layers are specialized for separately outputting a mask and score prediction. The model is trained by optimizing a cost function that targets both tasks simultaneously. In detail, a VGG-A ConvNet architecture (initialized with pre-trained ImageNet classification parameters and consisting of 3x3 convolutions, ReLUs and 2x2 max pooling layers) is used, where the final fully connected layers and the last max-pooling layer are removed, because the spatial information provided in the convolutional feature maps is needed for inferring segmentation masks. The branch of the network dedicated to segmentation is composed of a single 1x1 convolution with ReLU and a classification layer, consisting of several pixel classifiers. The classification layer moreover is decomposed into two linear layers with no non-linearity in between (a low-rank variant of using fully connected linear classifiers, reducing the number of network parameters while allowing each pixel classifier to use information from the entire feature map). The branch of the network dedicated to scoring is composed of a 2x2 max-pooling and two fully connected layers with ReLUs and dropout. The loss function is a sum of binary logistic regression losses, one for each location of the segmenation network and one for the object score. An alternation between backpropagation through the segmenation and scoring branch is performed. Generalization capabilities of the model are demonstrated by testing it on object categories not seen during training. For this, segmentation training with only positive scored objects is critical, since this way the network attempts to generate a segmentation mask at every patch, even if no known object is present. During full image inference the model is densely applied at multiple locations and scales. Since all computations can be computed convolutionally, the full image inference procedure is still efficient. For the implementation of all experiments Torch7 has been used.*
-
-
-#### <a name="Pixel-level Labeling with CNNs"></a>[From Image-level to Pixel-level Labeling with Convolutional Networks](http://arxiv.org/abs/1411.6228)
-
-(P. O. Pinheiro and R. Collobert; 23 Nov 2014)
 
 
 #### <a name="Deep Generative Image Models"></a>[Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](http://arxiv.org/abs/1506.05751)
@@ -53,11 +55,6 @@ mathjax: true
 #### <a name="Inception2"></a>[Rethinking the Inception Architecture for Computer Vision](http://arxiv.org/abs/1512.00567)
 
 (C. Szegedy, V. Vanhoucke, S. Ioffe, J. Shlens and Z. Wojna; 2 Dec 2015)
-
-
-#### <a name="Deconv"></a>[Learning Deconvolution Network for Semantic Segmentation](http://cvlab.postech.ac.kr/research/deconvnet/)
-
-(H. Noh,	S. Hong	and B. Han; 17 May 2015)
 
 
 #### <a name="ELUs"></a>[Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](http://arxiv.org/abs/1511.07289)
@@ -367,7 +364,6 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Fast R-CNN](#Fast R-CNN) <br />
 [Fractional Max-Pooling](#Fractional Max-Pooling) <br />
 [Freeze-Thaw Bayesian Optimization](#Freeze-Thaw Bayesian Optimization) <br />
-[From Image-level to Pixel-level Labeling with Convolutional Networks](#Pixel-level Labeling with CNNs) <br />
 [Going Deeper with Convolutions](#GoogLeNet) <br />
 [Gradient-based Hyperparameter Optimization through Reversible Learning](#HyperparamOpt) <br />
 [Grid Long Short-Term Memory](#Grid LSTM) <br />
