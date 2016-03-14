@@ -11,11 +11,24 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="Visualize DNNs"></a>[A New Method to Visualize Deep Neural Networks](http://arxiv.org/abs/1603.02518)
+
+(L. M. Zintgraf, T. S. Cohen and M. Welling; 8 Mar 2016)
+
+
+#### <a name="3D ShapeNets"></a>[3D ShapeNets: A Deep Representation for Volumetric Shape Modeling](http://arxiv.org/abs/1406.5670)
+
+(Z. Wu, S. Song, A. Khosla, F. Yu, L. Zhang, X. Tang and J. Xiao; 22 Jun 2014)
+
+
+#### <a name="Hand-Eye Coordination via DL"></a>[Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection](http://arxiv.org/abs/1603.02199)
+
+(S. Levine, P. Pastor, A. Krizhevsky and D. Quillen; 7 Mar 2016)
+
+
 #### <a name="Deconv"></a>[Learning Deconvolution Network for Semantic Segmentation](http://cvlab.postech.ac.kr/research/deconvnet/)
 
 (H. Noh,	S. Hong	and B. Han; 17 May 2015)
-
-*...*
 
 
 #### <a name="Learning to Segment Object Candidates"></a>[Learning to Segment Object Candidates](http://arxiv.org/abs/1506.06204)
@@ -346,6 +359,8 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 
 ### <a name="Title index"></a>Index of titles:
 
+[3D ShapeNets: A Deep Representation for Volumetric Shape Modeling](#3D ShapeNets) <br />
+[A New Method to Visualize Deep Neural Networks](#Visualize DNNs) <br />
 [A robust, coarse-to-ﬁne trafﬁc sign detection method](#Traffic Sign Detection) <br />
 [Building High-level Features Using Large Scale Unsupervised Learning](#High-level Features via Unsupervised Learning) <br />
 [Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition](#MNIST) <br />
@@ -375,6 +390,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Learning Compound Multi-Step Controllers under Unknown Dynamics](#Learning Compound Multi-Step Controllers under Unknown Dynamics) <br />
 [Learning Deconvolution Network for Semantic Segmentation](#Deconv) <br />
 [Learning Descriptors for Object Recognition and 3D Pose Estimation](#Learning Descriptors for Object Recognition and 3D Pose Estimation) <br />
+[Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection](#Hand-Eye Coordination via DL) <br />
 [Learning to Segment Object Candidates](#Learning to Segment Object Candidates) <br />
 [Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders](#Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders) <br />
 [Look and Think Twice: Capturing Top-Down Visual Attention with Feedback Convolutional Neural Network](#Look Twice)
