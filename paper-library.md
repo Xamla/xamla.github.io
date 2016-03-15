@@ -26,19 +26,17 @@ mathjax: true
 (S. Levine, P. Pastor, A. Krizhevsky and D. Quillen; 7 Mar 2016)
 
 *New learning-based approach to hand-eye coordination for robotic grasping from monocular images. The method consists of two parts: 1.) A grasp success prediction network \\(g(I_t, v_t)\\), i.e. a deep convolutional neural network (CNN), which as input gets an image \\(I_t\\) and a task-space motion command \\(v_t\\) and as ouput returns the probability of motion command \\(v_t\\) resulting in a successful grasp, and 2.) a servoing function \\(f(I_t)\\), which uses the prediction network to continuously update the robot's motor commands to servo the gripper to a success grasp. By continuously choosing the best predicted path to a successful grasp, the servoing mechanism provides the robot with fast feedback to perturbations and object motion, as well as robustness to inaccurate actuation.
-
-Importantly, the model does not require the camera to be precisely calibrated with respect to the end-effector, but instead uses visual cues to determine the spatial relationship between the gripper and graspable objects in the scene.
-
+Currently, only vertical pinch grasps are considered , though extensions to other grasp parameterizations would be straightforward.
+Importantly, the model does not require the camera to be precisely calibrated with respect to the end-effector, but instead continuously uses visual feedback to determine the spatial relationship between the gripper and graspable objects in the scene.
 The grasp prediction CNN was trained with a large dataset of over 800000 grasp attempts collected over the course of two months, using between 6 and 14 robotic manipulators at any given time, with slight differences in camera placement and slight differences in wear and tear on each robot resulting in differences in the shape of the gripper fingers. 
-Each grasp \\(i\\) consists of \\(T\\) time steps. At each time step \\(t\\), the robot records the current image \\(I_t^i\\) and the current pose \\(p_t^i\\), and then chooses a direction along which to move the gripper. At the final time step \\(T\\), the robot closes the gripper and evaluates the success of the grasp, producing a label \\(\mathcal{l}_i\\). The final dataset contains samples \\((I_t^i, p_T^i − p_t^i, \mathcal{l}_i)\\) that consist of the image, a vector from the current pose to the final pose, and the grasp success label.
+Each grasp \\(i\\) consists of \\(T\\) time steps. At each time step \\(t\\), the robot records the current image \\(I_t^i\\) and the current pose \\(p_t^i\\), and then chooses a direction along which to move the gripper. At the final time step \\(T\\), the robot closes the gripper and evaluates the success of the grasp, producing a label \\(\mathcal{l}_i\\). The final dataset contains samples \\((I_t^i, p_T^i − p_t^i, \mathcal{l}_i)\\) that consist of the image, a vector from the current pose to the final pose, and the grasp success label. 
+The CNN moreover is trained with a cross-entropy loss to match \\(\mathcal{l}_i\\), causing the network to output the probability \\(p(\mathcal{l}_i = 1)\\).
+The servoing mechanism uses the grasp prediction network to choose the motor commands for the robot that will maximize the probability of a success grasp. Thereto an optimization on \\(v_t\\) is performed using the cross-entropy method (CEM), a simple derivative-free optimization algorithm.
+Moreover, the following two heuristics for gripper and robot motion are taken as basis: 1.) The gripper is closed whenever the network predicts that no motion will succeed with a probability that is at least 90% of the best inferred motion. 2.) The gripper is raised off the table whenever the network predicts that no motion has a probability of success that is less than 50% of the best inferred motion.
+During data collection, grasp success was evaluated using two methods: 1.) The position reading on the gripper is greater than 1cm, indicating that the fingers have not closed fully (only suitable for thick objects). 2.) The images of the bin containing the objects recorded before and after a drop differ, indicating that there has somenthing been in the gripper ("drop test").
+Finally, the presented method has been tested to be more robust to perturbations as movement of objects in the scene and variability in actuation and gripper shape than an "open-loop approach" (without continuous feedback). Moverover, grasps automatically were adapted to the different material properties of the objects and even challenging (e.g. flat) objects could be grasped.
 
-The CNN moreover is trained with a cross-entropy loss to match \\(\mathcal{l}_i\\), causing the network to output \\(p(\mathcal{l}_i = 1)\\).
-
-The servoing mechanism uses the grasp prediction network to choose the motor commands for the robot that will maximize the probability of a success grasp. Therefor an optimization on \\(v_t\\) is performed using the cross-entropy method (CEM), a simple derivative-free optimization algorithm.
-
-The predicted grasp success is used to inform two heuristics for gripper and robot motion: 1.) The gripper is closed whenever the network predicts that no motion will succeed with a probability that is at least 90% of the best inferred motion. 2.) The gripper is raised off the table whenever the network predicts that no motion has a probability of success that is less than 50% of the best inferred motion.
-
-... to be continued.* 
+([*Long review*]({{ site.baseurl }}/update/2016/03/15/Review-of-Learning-Hand-Eye-Coordination-via-DL.html))
 
 
 #### <a name="Deconv"></a>[Learning Deconvolution Network for Semantic Segmentation](http://cvlab.postech.ac.kr/research/deconvnet/)
