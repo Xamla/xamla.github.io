@@ -1,8 +1,8 @@
 ---
 layout: post
 group: review
-title:  "Review of Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images"
-date:   2015-10-01 13:51:00
+title:  "Review of Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection"
+date:   2016-03-15 13:51:00
 categories: update
 mathjax: true
 ---
