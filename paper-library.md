@@ -36,7 +36,7 @@ Moreover, the following two heuristics for gripper and robot motion are taken as
 During data collection, grasp success was evaluated using two methods: 1.) The position reading on the gripper is greater than 1cm, indicating that the fingers have not closed fully (only suitable for thick objects). 2.) The images of the bin containing the objects recorded before and after a drop differ, indicating that there has somenthing been in the gripper ("drop test").
 Finally, the presented method has been tested to be more robust to perturbations as movement of objects in the scene and variability in actuation and gripper shape than an "open-loop approach" (without continuous feedback). Moverover, grasps automatically were adapted to the different material properties of the objects and even challenging (e.g. flat) objects could be grasped.*
 
-([*Long review*]({{ site.baseurl }}/update/2016/03/15/Review-of-Learning-Hand-Eye-Coordination-via-DL.html))
+([*Review*]({{ site.baseurl }}/update/2016/03/15/Review-of-Learning-Hand-Eye-Coordination-via-DL.html))
 
 
 #### <a name="Deconv"></a>[Learning Deconvolution Network for Semantic Segmentation](http://cvlab.postech.ac.kr/research/deconvnet/)
