@@ -11,6 +11,14 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="CNNs for object detection and pose estimation"></a>[Convolutional Neural Networks for joint object detection and pose estimation: A comparative study](http://arxiv.org/abs/1412.7190)
+
+(F. Massa, M. Aubry and R. Marlet; 22 Dec 2014)
+
+*Study of CNNs for jointly detecting objects and estimating their 3D pose. In particular, design and evaluation of different feature representations of oriented objects, and different loss functions that lead a network to learn this representations. One difficulty is that the task requires features with two conflicting properties: The pose of an object has a continuous structure while its category is a discrete variable. Moreover, the amount of training data for the task is very limited. Evaluation of different approaches on the joint object detection and pose estimation task of the Pascal3D+ benchmark using Average Viewpoint Precision.  
+A Spatial Pyramid Pooling (SPP) framework (as proposed by He et al. and applying selective search after the convolutional layers) is used, where the CNN is pre-trained on ImageNet (in order to deal with the lack of training data) and only the last layers are adapted and fine-tuned to predict different features identifying the presence of an object and its orientation. Only the azimuth (yaw) angle is considered here, because the pitch and roll angles vary only slightly for the Pascal VOC images. Mainly three different approaches of feature representations with corresponding error functions are analyzed:  1.) A discrete method, where the subspace of object orientations is a set of discrete points (like object classes), 2.) A continuous method, where for each class the subspace of object orientations is a circle and background patches are forced to have features far from this circle. Hence, small distances from the features to the circle can be associated to the class and the angle predicts the orientation. 3.) An intermediate method, where for each patch the probability of the class and the angle are predicted. Here, the manifold corresponding to the angle feature can be: a) a single circle for all classes, b) a circle per class, or c) an hyper-cylinder per class. ... to be continued*
+
+
 #### <a name="Visualize DNNs"></a>[A New Method to Visualize Deep Neural Networks](http://arxiv.org/abs/1603.02518)
 
 (L. M. Zintgraf, T. S. Cohen and M. Welling; 8 Mar 2016)
@@ -376,6 +384,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [A New Method to Visualize Deep Neural Networks](#Visualize DNNs) <br />
 [A robust, coarse-to-ﬁne trafﬁc sign detection method](#Traffic Sign Detection) <br />
 [Building High-level Features Using Large Scale Unsupervised Learning](#High-level Features via Unsupervised Learning) <br />
+[Convolutional Neural Networks for joint object detection and pose estimation: A comparative study](#CNNs for object detection and pose estimation) <br />
 [Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition](#MNIST) <br />
 [DeepBox: Learning Objectness with Convolutional Networks](#DeepBox) <br />
 [DeepCamera: A Unified Framework for Recognizing Places-of-Interest based on Deep ConvNets](#DeepCamera) <br />
