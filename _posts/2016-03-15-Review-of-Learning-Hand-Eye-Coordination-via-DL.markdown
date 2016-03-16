@@ -26,7 +26,7 @@ New learning-based approach to hand-eye coordination for robotic grasping from m
 Currently, **only vertical pinch grasps** are considered (though extensions to other grasp parameterizations would be straightforward).
 
 ## Important advantage:
-The model **does not require** the **camera** to be precisely **calibrated** with respect to the end-effector, 
+The model <b>This text is bold</b> **does not require** the **camera** to be precisely **calibrated** with respect to the end-effector, 
 but instead continuously uses visual feedback to determine the spatial relationship between the gripper and graspable 
 objects in the scene. By continuously choosing the best predicted path to a successful grasp, the servoing mechanism provides the robot with fast feedback to perturbations and object motion, as well as robustness to inaccurate actuation.
 
