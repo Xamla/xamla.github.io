@@ -45,7 +45,7 @@ Here: N = 64, M = 6
   *Reason:* Stop the grasp early if closing the gripper is nearly as likely to produce a successful grasp as moving it.
 * The gripper is raised off the table whenever the network predicts that no motion has a probability of success that is 
   less than 50% of the best inferred motion. <br />
-  _*Reason:*_ If closing the gripper now is substantially worse than moving it, the gripper is most likely not positioned 
+  __*Reason:*__ If closing the gripper now is substantially worse than moving it, the gripper is most likely not positioned 
   in a good configuration, and a large motion will be required. Therefore, raising the gripper off the table minimizes
   the chance of hitting other objects that are in the way. <br />
 <br />
