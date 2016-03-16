@@ -41,11 +41,11 @@ CEM samples a batch of N values at each iteration, fits a Gaussian distribution 
 Here: N = 64, M = 6
 
 ## Two heuristics for gripper and robot motion:
-* The gripper is closed whenever the network predicts that no motion will succeed with a probability that is at least 90% of the best inferred motion.
-  **Reason:** Stop the grasp early if closing the gripper is nearly as likely to produce a successful grasp as moving it.
+* The gripper is closed whenever the network predicts that no motion will succeed with a probability that is at least 90% of the best inferred motion. <br />
+  *Reason:* Stop the grasp early if closing the gripper is nearly as likely to produce a successful grasp as moving it.
 * The gripper is raised off the table whenever the network predicts that no motion has a probability of success that is 
   less than 50% of the best inferred motion. <br />
-  **Reason:** If closing the gripper now is substantially worse than moving it, the gripper is most likely not positioned 
+  * *Reason:* * If closing the gripper now is substantially worse than moving it, the gripper is most likely not positioned 
   in a good configuration, and a large motion will be required. Therefore, raising the gripper off the table minimizes
   the chance of hitting other objects that are in the way. <br />
 <br />
