@@ -18,7 +18,7 @@ New learning-based approach to hand-eye coordination for robotic grasping from m
 
 ## Method consists of two parts:
 *  A grasp success __prediction network__ \\(g(I_t, v_t)\\), i.e. a deep convolutional neural network (CNN), which as input gets an image \\(I_t\\) and a task-space motion command \\(v_t\\) and as ouput returns the probability of motion command \\(v_t\\) resulting in a successful grasp.
-*  A servoing function \\(f(I_t)\\), which uses the prediction network to continuously update the robot’s motor commands to servo the gripper to a success grasp.
+*  A servoing function \\(f(I_t)\\), which uses the prediction network to continuously update the robot’s motor commands to servo the gripper to a success grasp. <br />
 
 
 ## Slight drawback:
