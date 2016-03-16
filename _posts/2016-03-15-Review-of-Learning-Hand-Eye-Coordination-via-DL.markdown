@@ -1,11 +1,24 @@
 ---
 layout: post
 group: review
-title:  "Review of Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection"
+title: "Review of Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection"
 date:   2016-03-15 13:51:00
 categories: update
 mathjax: true
 ---
+
+**Blog post:**
+[The Future of Real-Time SLAM and Deep Learning vs SLAM](http://www.computervisionblog.com/2016/01/why-slam-matters-future-of-real-time.html)
+(Tomasz Malisiewicz; 13 Jan 2016)
+
+**Description:** <br />
+This blog post consists of three parts: 
+* Part I: A brief introduction to SLAM
+* Part II: A summary of T. Malisiewicz' workshop ["Future of Real-Time SLAM"](http://wp.doc.ic.ac.uk/thefutureofslam/programme/) at the [ICCV 2015](http://pamitc.org/iccv15/).
+* Part III: Some conclusions from the deep learning-focused panel discussion at the end of the session (*"Deep learning vs SLAM"*).
+
+# Part I: A brief introduction to SLAM
+SLAM (Simultaneous Localization and Mappi
 
 ##Paper:
 
