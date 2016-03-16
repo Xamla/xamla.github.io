@@ -20,13 +20,12 @@ New learning-based approach to hand-eye coordination for robotic grasping from m
 *  A grasp success __prediction network__ \\(g(I_t, v_t)\\), i.e. a deep convolutional neural network (CNN), which as input gets an image \\(I_t\\) and a task-space motion command \\(v_t\\) and as ouput returns the probability of motion command \\(v_t\\) resulting in a successful grasp.
 *  A servoing function \\(f(I_t)\\), which uses the prediction network to continuously update the robot’s motor commands to servo the gripper to a success grasp. <br />
  <br />
- <br />
 
 ## Slight drawback:
 Currently, **only vertical pinch grasps** are considered (though extensions to other grasp parameterizations would be straightforward).
 
 ## Important advantage:
-The model <b>This text is bold</b> **does not require** the **camera** to be precisely **calibrated** with respect to the end-effector, 
+The model **does not require** the **camera** to be precisely **calibrated** with respect to the end-effector, 
 but instead continuously uses visual feedback to determine the spatial relationship between the gripper and graspable 
 objects in the scene. By continuously choosing the best predicted path to a successful grasp, the servoing mechanism provides the robot with fast feedback to perturbations and object motion, as well as robustness to inaccurate actuation.
 
@@ -34,14 +33,15 @@ objects in the scene. By continuously choosing the best predicted path to a succ
 * Large dataset of over 800000 grasp attempts collected over the course of two months, using between 6 and 14 robotic manipulators at any given time.
 * Slight differences in camera placement (always behind the robot) and slight differences in wear and tear on each robot resulting in differences in the shape of the gripper fingers. 
 * Each grasp \\(i\\) consists of \\(T\\) time steps. At each time step \\(t\\), the robot records the current image \\(I_t^i\\) and the current pose \\(p_t^i\\), and then chooses a direction along which to move the gripper. At the final time step \\(T\\), the robot closes the gripper and evaluates the success of the grasp, producing a label \\(l_i\\). The final dataset contains samples \\((I_t^i, p_T^i − p_t^i, l_i)\\) that consist of the image, a vector from the current pose to the final pose, and the grasp success label.
-* The CNN is trained with a **cross-entropy loss** to match \\(l_i\\), causing the network to output the probability \\(p(l_i = 1)\\). 
-  
+* The CNN is trained with a **cross-entropy loss** to match \\(l_i\\), causing the network to output the probability \\(p(l_i = 1)\\). <br />
+<br />
+
 The **servoing mechanism** uses the grasp prediction network to choose the motor commands for the robot that will maximize the probability of a success grasp. 
 Thereto a “small” optimization on \\(v_t\\) is performed using **three iterations of the cross-entropy method (CEM)**, a simple derivative-free optimization algorithm.
 CEM samples a batch of N values at each iteration, fits a Gaussian distribution to M < N of these samples, and then samples a new batch of N from this Gaussian. 
 Here: N = 64, M = 6
 
-**Two heuristics for gripper and robot motion:** <br />
+##Two heuristics for gripper and robot motion:
 * The gripper is closed whenever the network predicts that no motion will succeed with a probability that is at least 90% 
   of the best inferred motion. <br />
   **Reason:** Stop the grasp early if closing the gripper is nearly as likely to produce a successful grasp as moving it.
@@ -49,15 +49,17 @@ Here: N = 64, M = 6
   less than 50% of the best inferred motion. <br />
   **Reason:** If closing the gripper now is substantially worse than moving it, the gripper is most likely not positioned 
   in a good configuration, and a large motion will be required. Therefore, raising the gripper off the table minimizes
-  the chance of hitting other objects that are in the way. 
-  
-**Two methods of grasp success evaluation during data collection:** <br />
+  the chance of hitting other objects that are in the way. <br />
+<br />
+
+##Two methods of grasp success evaluation during data collection:
 * The position reading on the gripper is greater than 1cm, indicating that the fingers have not closed fully 
   (only suitable for thick objects). 
 * The images of the bin containing the objects recorded before and after a drop differ, indicating that there 
-  has somenthing been in the gripper (“drop test”). 
+  has somenthing been in the gripper (“drop test”). <br />
+<br />
 
-**Experimental results:** <br />
+##Experimental results:
 * The presented method has been tested to be more robust to perturbations as movement of objects in the scene and 
   variability in actuation and gripper shape than an “open-loop approach” (without continuous feedback). <br />
   (“Open-loop approach”: 
