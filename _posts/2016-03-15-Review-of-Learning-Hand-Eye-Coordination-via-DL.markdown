@@ -11,19 +11,20 @@ mathjax: true
 [Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection](http://arxiv.org/abs/1603.02199)
 (S. Levine, P. Pastor, A. Krizhevsky and D. Quillen; 7 Mar 2016)
 
+
 ## Description:
 New learning-based approach to hand-eye coordination for robotic grasping from monocular images. 
 
-## Method consists of two parts:
 
+## Method consists of two parts:
 *  A grasp success __prediction network__ \\(g(I_t, v_t)\\), i.e. a deep convolutional neural network (CNN), which as input gets an image \\(I_t\\) and a task-space motion command \\(v_t\\) and as ouput returns the probability of motion command \\(v_t\\) resulting in a successful grasp.
 *  A servoing function \\(f(I_t)\\), which uses the prediction network to continuously update the robot’s motor commands to servo the gripper to a success grasp.
 
-## Slight drawback:
 
+## Slight drawback:
 Currently, **only vertical pinch grasps** are considered (though extensions to other grasp parameterizations would be straightforward).
 
-**Important advantage:** <br />
+__Important advantage:__ <br />
 The model **does not require** the **camera** to be precisely **calibrated** with respect to the end-effector, 
 but instead continuously uses visual feedback to determine the spatial relationship between the gripper and graspable 
 objects in the scene. By continuously choosing the best predicted path to a successful grasp, the servoing mechanism provides the robot with fast feedback to perturbations and object motion, as well as robustness to inaccurate actuation.
