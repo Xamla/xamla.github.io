@@ -11,10 +11,8 @@ mathjax: true
 [Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection](http://arxiv.org/abs/1603.02199)
 (S. Levine, P. Pastor, A. Krizhevsky and D. Quillen; 7 Mar 2016)
 
-
 ## Description:
 New learning-based approach to hand-eye coordination for robotic grasping from monocular images. 
-
 
 ## Method consists of two parts:
 *  A grasp success __prediction network__ \\(g(I_t, v_t)\\), i.e. a deep convolutional neural network (CNN), which as input gets an image \\(I_t\\) and a task-space motion command \\(v_t\\) and as ouput returns the probability of motion command \\(v_t\\) resulting in a successful grasp.
@@ -35,15 +33,15 @@ objects in the scene. By continuously choosing the best predicted path to a succ
 * Each grasp \\(i\\) consists of \\(T\\) time steps. At each time step \\(t\\), the robot records the current image \\(I_t^i\\) and the current pose \\(p_t^i\\), and then chooses a direction along which to move the gripper. At the final time step \\(T\\), the robot closes the gripper and evaluates the success of the grasp, producing a label \\(l_i\\). The final dataset contains samples \\((I_t^i, p_T^i − p_t^i, l_i)\\) that consist of the image, a vector from the current pose to the final pose, and the grasp success label.
 * The CNN is trained with a **cross-entropy loss** to match \\(l_i\\), causing the network to output the probability \\(p(l_i = 1)\\). <br />
 <br />
+<br />
 
 The **servoing mechanism** uses the grasp prediction network to choose the motor commands for the robot that will maximize the probability of a success grasp. 
 Thereto a “small” optimization on \\(v_t\\) is performed using **three iterations of the cross-entropy method (CEM)**, a simple derivative-free optimization algorithm.
 CEM samples a batch of N values at each iteration, fits a Gaussian distribution to M < N of these samples, and then samples a new batch of N from this Gaussian. 
 Here: N = 64, M = 6
 
-##Two heuristics for gripper and robot motion:
-* The gripper is closed whenever the network predicts that no motion will succeed with a probability that is at least 90% 
-  of the best inferred motion. <br />
+## Two heuristics for gripper and robot motion:
+* The gripper is closed whenever the network predicts that no motion will succeed with a probability that is at least 90% of the best inferred motion.
   **Reason:** Stop the grasp early if closing the gripper is nearly as likely to produce a successful grasp as moving it.
 * The gripper is raised off the table whenever the network predicts that no motion has a probability of success that is 
   less than 50% of the best inferred motion. <br />
@@ -52,14 +50,14 @@ Here: N = 64, M = 6
   the chance of hitting other objects that are in the way. <br />
 <br />
 
-##Two methods of grasp success evaluation during data collection:
+## Two methods of grasp success evaluation during data collection:
 * The position reading on the gripper is greater than 1cm, indicating that the fingers have not closed fully 
   (only suitable for thick objects). 
 * The images of the bin containing the objects recorded before and after a drop differ, indicating that there 
   has somenthing been in the gripper (“drop test”). <br />
 <br />
 
-##Experimental results:
+## Experimental results:
 * The presented method has been tested to be more robust to perturbations as movement of objects in the scene and 
   variability in actuation and gripper shape than an “open-loop approach” (without continuous feedback). <br />
   (“Open-loop approach”: 
