@@ -14,16 +14,16 @@ mathjax: true
 ## Description:
 New learning-based approach to hand-eye coordination for robotic grasping from monocular images. 
 
-## Two method parts (grasp success prediction network and servoing function):
-*  A grasp success __prediction network__ \\(g(I_t, v_t)\\), i.e. a deep convolutional neural network (CNN), which as input gets an image \\(I_t\\) and a task-space motion command \\(v_t\\) and as ouput returns the probability of motion command \\(v_t\\) resulting in a successful grasp.
-*  A servoing function \\(f(I_t)\\), which uses the prediction network to continuously update the robot’s motor commands to servo the gripper to a success grasp. <br />
+## Method consists of two parts:
+*  A *grasp success prediction network* \\(g(I_t, v_t)\\), i.e. a deep convolutional neural network (CNN), which as input gets an image \\(I_t\\) and a task-space motion command \\(v_t\\) and as ouput returns the probability of motion command \\(v_t\\) resulting in a successful grasp.
+*  A *servoing function* \\(f(I_t)\\), which uses the prediction network to continuously update the robot’s motor commands to servo the gripper to a success grasp. <br />
  <br />
 
 ## Slight drawback:
-Currently, **only vertical pinch grasps** are considered (though extensions to other grasp parameterizations would be straightforward).
+Currently, *only vertical pinch grasps* are considered (though extensions to other grasp parameterizations would be straightforward).
 
 ## Important advantage:
-The model **does not require** the **camera** to be precisely **calibrated** with respect to the end-effector, 
+The model *does not require* the *camera* to be precisely *calibrated* with respect to the end-effector, 
 but instead continuously uses visual feedback to determine the spatial relationship between the gripper and graspable 
 objects in the scene. 
 
@@ -38,7 +38,7 @@ objects in the scene.
 The servoing mechanism uses the grasp prediction network to choose the motor commands for the robot that will maximize the probability of a success grasp. 
 Thereto a *“small”* optimization on \\(v_t\\) is performed using *three iterations of the cross-entropy method (CEM)*, a simple derivative-free optimization algorithm.
 CEM samples a batch of N values at each iteration, fits a Gaussian distribution to M < N of these samples, and then samples a new batch of N from this Gaussian. 
-(*Here:* N = 64, M = 6.)
+(Here: N = 64, M = 6.)
 
 ## Two heuristics for gripper and robot motion:
 * The gripper is closed whenever the network predicts that no motion will succeed with a probability that is at least 90% of the best inferred motion. <br />
