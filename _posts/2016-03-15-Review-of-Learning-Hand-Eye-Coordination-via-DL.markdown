@@ -24,16 +24,15 @@ New learning-based approach to hand-eye coordination for robotic grasping from m
 ## Slight drawback:
 Currently, **only vertical pinch grasps** are considered (though extensions to other grasp parameterizations would be straightforward).
 
-__Important advantage:__ <br />
+## Important advantage:
 The model **does not require** the **camera** to be precisely **calibrated** with respect to the end-effector, 
 but instead continuously uses visual feedback to determine the spatial relationship between the gripper and graspable 
 objects in the scene. By continuously choosing the best predicted path to a successful grasp, the servoing mechanism provides the robot with fast feedback to perturbations and object motion, as well as robustness to inaccurate actuation.
 
-**Training:** <br />
+## Training:
 * Large dataset of over 800000 grasp attempts collected over the course of two months, using between 6 and 14 robotic manipulators at any given time.
 * Slight differences in camera placement (always behind the robot) and slight differences in wear and tear on each robot resulting in differences in the shape of the gripper fingers. 
-* Each grasp \\(i\\) consists of \\(T\\) time steps. At each time step \\(t\\), the robot records the current image \\(I_t^i\\) and the current pose \\(p_t^i\\), and then chooses a direction along which to move the gripper. At the final time step \\(T\\), the robot closes the gripper and evaluates the success of the grasp, producing a label \\(l_i\\). 
-  The final dataset contains samples \\((I_t^i, p_T^i − p_t^i, l_i)\\) that consist of the image, a vector from the current pose to the final pose, and the grasp success label.
+* Each grasp \\(i\\) consists of \\(T\\) time steps. At each time step \\(t\\), the robot records the current image \\(I_t^i\\) and the current pose \\(p_t^i\\), and then chooses a direction along which to move the gripper. At the final time step \\(T\\), the robot closes the gripper and evaluates the success of the grasp, producing a label \\(l_i\\). The final dataset contains samples \\((I_t^i, p_T^i − p_t^i, l_i)\\) that consist of the image, a vector from the current pose to the final pose, and the grasp success label.
 * The CNN is trained with a **cross-entropy loss** to match \\(l_i\\), causing the network to output the probability \\(p(l_i = 1)\\). 
   
 The **servoing mechanism** uses the grasp prediction network to choose the motor commands for the robot that will maximize the probability of a success grasp. 
