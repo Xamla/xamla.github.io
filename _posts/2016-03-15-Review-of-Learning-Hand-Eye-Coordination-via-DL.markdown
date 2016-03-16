@@ -16,9 +16,8 @@ New learning-based approach to hand-eye coordination for robotic grasping from m
 
 
 
-### Method consists of two parts:
-*  A grasp success prediction network
-   
+## Method consists of two parts:
+* A grasp success prediction network
 * A servoing function
 
 
