@@ -8,10 +8,12 @@ mathjax: true
 ---
 
 ##Paper:
+
 [Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection](http://arxiv.org/abs/1603.02199)
 (S. Levine, P. Pastor, A. Krizhevsky and D. Quillen; 7 Mar 2016)
 
 ##Description:
+
 New learning-based approach to hand-eye coordination for robotic grasping from monocular images. 
 
 ###Method consists of two parts:
