@@ -29,7 +29,7 @@ Winner of the [ILSVRC 2015](http://image-net.org/challenges/LSVRC/2015/) object 
 |:---------- | ----------- | ------------ | ------------ | ------------ | ------------- | ------------- |
 | conv1      | 112×112     |              | 7x7, 64, stride 2                                           |               
 | conv2_x    | 56x56       |              | 3x3 max pool, stride 2                                      |
-| conv2_x    | 56x56       | \\( \left[ \overset{3x3, 64}{3x3, 64} \right] \times 2 \\)  |     |     |    |     |
+| conv2_x    | 56x56       | \\( \left[ {{3x3, 64} \atop {3x3, 64}} \right] \times 2 \\)  |     |     |    |     |
 
 
 <br /> 
