@@ -13,12 +13,15 @@ mathjax: true
   td{padding-left:15px;padding-right:15px}
 </style>
 
-### GoogLeNet
+## GoogLeNet
 
-**Paper**:
+**Paper**: <br />
 [Going Deeper with Convolutions](http://arxiv.org/abs/1409.4842) (C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke and A. Rabinovich; 17 Sep 2014) <br /> 
-**Code:** [Caffe-Model](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet) and [GoogLeNet GPU implementation from Princeton](http://vision.princeton.edu/pvt/GoogLeNet/) (\\(\rightarrow\\) see "Trained model using ImageNet") (from [Caffe Model-Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)) <br /> 
-**Description:**
+
+**Code:** <br />
+[Caffe-Model](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet) and [GoogLeNet GPU implementation from Princeton](http://vision.princeton.edu/pvt/GoogLeNet/) (\\(\rightarrow\\) see "Trained model using ImageNet") (from [Caffe Model-Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)) <br /> 
+
+**Description:** <br />
 Winner of the [ILSVRC 2014](http://www.image-net.org/challenges/LSVRC/2014/) at the categories *"Classification"* (with provided training data) and *"Detection"* (with additional training data). The main innovation of GoogLeNet is the *"Inception Module"* that significantly reduces the number of network parameters. The *"Inception Module"* is an aggregation of optimal local sparse (sparsely connected) network structures into readily available building blocks. The architecture of the *"Inception Module"* and the overall network architecture are shown in the subsequent tables. "All convolutions, including those inside the Inception modules, use rectified linear activation (ReLU). The size of the receptive field is 224×224 taking RGB color channels with mean subtraction. “#3×3 reduce” and “#5×5 reduce” stands for the number of 1×1 filters in the reduction layer used before the 3×3 and 5×5 convolutions. One can see the number of 1×1 filters in the projection layer after the built-in max-pooling in the pool proj column. All these reduction/projection layers use rectified linear activation (ReLU) as well." (Going Deeper with Convolutions, C. Szegedy et al, 2014)
 
 
