@@ -85,7 +85,7 @@ Interesting links on residual nets:
 
 * [Slides of their talk at the ICCV 2015](http://research.microsoft.com/en-us/um/people/kahe/ilsvrc15/ilsvrc2015_deep_residual_learning_kaiminghe.pdf)
 * [Original implementation on GitHub](https://github.com/KaimingHe/deep-residual-networks)
-* [Torch implementation on GitHub](https://github.com/gcr/torch-residual-networks)
+* [Torch implementation on GitHub](https://github.com/facebook/fb.resnet.torch)
 * [Torch blog post about residual nets](http://torch.ch/blog/2016/02/04/resnets.html)
 * [GitXiv entry](http://gitxiv.com/posts/LgPRdTY3cwPBiMKbm/deep-residual-learning-for-image-recognition)
 * [Short description on Quora](https://www.quora.com/How-does-deep-residual-learning-work)
