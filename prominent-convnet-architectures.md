@@ -28,13 +28,13 @@ Winner of the [ILSVRC 2015](http://image-net.org/challenges/LSVRC/2015/) object 
 | Layer Name | Output Size | 18-Layer Net | 34-Layer Net | 50-Layer Net | 101-Layer Net | 152-Layer Net |
 |:---------- | ----------- | ------------ | ------------ | ------------ | ------------- | ------------- |
 | conv1      | 112×112     |              | 7x7, 64, stride 2                                                          
-| conv2_x    | 56x56       |              | 3x3 max pool, stride 2                                      
+|            |             |              | 3x3 max pool, stride 2                                      
 | conv2_x    | 56x56       | \\( \left[ {\text{3x3, 64} \atop \text{3x3, 64}} \right] \times 2 \\) | \\( \left[ {\text{3x3, 64} \atop \text{3x3, 64}} \right] \times 3 \\)  | \\( \left[ \text{1x1, 64} \atop {\text{3x3, 64} \atop \text{1x1, 256}} \right] \times 3 \\)  | \\(\left[\text{1x1, 64}\atop{\text{3x3, 64}\atop\text{1x1, 256}}\right] \times 3\\) | \\(\left[\text{1x1, 64}\atop{\text{3x3, 64}\atop\text{1x1, 256}}\right] \times 3\\) |
 | conv3_x    | 28x28       | \\(\left[\text{3x3, 128}\atop\text{3x3, 128}\right] \times 2\\) | \\(\left[\text{3x3, 128}\atop\text{3x3, 128}\right] \times 4\\) | \\(\left[\text{1x1, 128}\atop{\text{3x3, 128}\atop\text{1x1, 512}}\right] \times 4\\) | \\(\left[\text{1x1, 128}\atop{\text{3x3, 128}\atop\text{1x1, 512}}\right] \times 4\\) | \\(\left[\text{1x1, 128}\atop{\text{3x3, 128}\atop\text{1x1, 512}}\right] \times 8\\) |
 | conv4_x    | 14x14       | \\(\left[\text{3x3, 256}\atop\text{3x3, 256}\right] \times 2\\) | \\(\left[\text{3x3, 256}\atop\text{3x3, 256}\right] \times 6\\) | \\(\left[\text{1x1, 256}\atop{\text{3x3, 256}\atop\text{1x1, 1024}}\right] \times 6\\) | \\(\left[\text{1x1, 256}\atop{\text{3x3, 256}\atop\text{1x1, 1024}}\right] \times 23\\) | \\(\left[\text{1x1, 256}\atop{\text{3x3, 256}\atop\text{1x1, 1024}}\right] \times 36\\) |   
-| conv5_x    | 7x7         |  \\(\left[\text{3x3, 512}\atop\text{3x3, 512}\right] \times 2\\) |  \\(\left[\text{3x3, 512}\atop\text{3x3, 512}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\text{3x3, 512}\atop\text{1x1, 2048}}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\text{3x3, 512}\atop\text{1x1, 2048}}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\text{3x3, 512}\atop\text{1x1, 2048}}\right] \times 3\\) |
-|            | 1x1         | average pool, 1000-d fc, softmax
-| FLOPs                    | 1.8x10⁹ | 3.6x10⁹ 
+| conv5_x    | 7x7         |  \\(\left[\text{3x3, 512}\atop\text{3x3, 512}\right] \times 2\\) |  \\(\left[\text{3x3, 512}\atop\text{3x3, 512}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\text{3x3, 512}\atop\text{1x1, 2048}}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\text{3x3, 512}\atop\text{1x1, 2048}}\right] \times 3\\) | \\(\left[\text{\normalsize{1x1, 512}}\atop{\text{3x3, 512}\atop\text{1x1, 2048}}\right] \times 3\\) |
+|            | 1x1         |              | average pool, | 1000-d fc, | softmax
+| FLOPs      |             | 1.8x10⁹ | 3.6x10⁹ | 3.8x10⁹ | 7.6x10⁹ | 11.3x10⁹ |
 
 
 <br /> 
