@@ -36,6 +36,7 @@ Winner of the [ILSVRC 2015](http://image-net.org/challenges/LSVRC/2015/) object 
 |            | 1x1         |              | average pool, | 1000-d fc, | softmax
 | FLOPs      |             | 1.8x10⁹ | 3.6x10⁹ | 3.8x10⁹ | 7.6x10⁹ | 11.3x10⁹ |
 
+Building blocks are shown in brackets with the numbers of blocks stacked. Downsampling is performed by conv3_1, conv4_1, and conv5_1 with a stride of 2.
 
 <br /> 
 
