@@ -42,6 +42,10 @@ Building blocks are shown in brackets with the numbers of blocks stacked. Downsa
 
 <br /> 
 
+... to be continued
+
+<br /> 
+
 ## GoogLeNet
 
 **Paper**: <br />
