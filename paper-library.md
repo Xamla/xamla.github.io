@@ -79,7 +79,16 @@ Finally, the presented method has been tested to be more robust to perturbations
 
 (K. He, X. Zhang, S. Ren and J. Sun; 10 Dec 2015) 
 
-*Gewinner der "ImageNet Large Scale Visual Recognition Challeng" (ILSVRC) 2015 in den Rubriken "Object Detection" und "Localization".*
+*Winner of the [ILSVRC 2015](http://image-net.org/challenges/LSVRC/2015/) object detection and image classification and localization tasks. Neural networks with depth of over 150 layers are used together with a "deep residual learning" framework that eases the optimization and convergence of extremely deep networks. The localization and detection systems are in addition based on the ["Faster R-CNN"](http://arxiv.org/abs/1506.01497) system of S. Ren at al.*
+
+Interesting links on residual nets: 
+
+* [Slides of their talk at the ICCV 2015](http://research.microsoft.com/en-us/um/people/kahe/ilsvrc15/ilsvrc2015_deep_residual_learning_kaiminghe.pdf)
+* [Original implementation on GitHub](https://github.com/KaimingHe/deep-residual-networks)
+* [Torch implementation on GitHub](https://github.com/gcr/torch-residual-networks)
+* [Torch blog post about residual nets](http://torch.ch/blog/2016/02/04/resnets.html)
+* [GitXiv entry](http://gitxiv.com/posts/LgPRdTY3cwPBiMKbm/deep-residual-learning-for-image-recognition)
+* [Short description on Quora](https://www.quora.com/How-does-deep-residual-learning-work)
 
 
 #### <a name="Learning to think"></a>[On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models](http://arxiv.org/abs/1511.09249)
