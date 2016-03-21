@@ -13,6 +13,27 @@ mathjax: true
   td{padding-left:15px;padding-right:15px}
 </style>
 
+## ResNet
+
+**Paper**: <br />
+[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385) (K. He, X. Zhang, S. Ren and J. Sun; 10 Dec 2015) <br /> 
+
+**Code:** <br />
+[Original implementation by K. He](https://github.com/KaimingHe/deep-residual-networkst) (models are converted to a recent (2016/2/3) version of Caffe) and [Torch implementation by Facebook AI Research](https://github.com/facebook/fb.resnet.torch) <br /> 
+
+**Description:** <br />
+Winner of the [ILSVRC 2015](http://image-net.org/challenges/LSVRC/2015/) object detection and image classification and localization tasks. Neural networks with depth of over 150 layers are used together with a "deep residual learning" framework that eases the optimization and convergence of extremely deep networks. The localization and detection systems are in addition based on the ["Faster R-CNN"](http://arxiv.org/abs/1506.01497) system of S. Ren at al
+
+
+| Layer Name     | Output Size         | 18-Layer Net | 34-Layer Net | 50-Layer Net | 101-Layer Net | 152-Layer Net |
+|:-------------- | ------------------- | ----------- | ----- | ---- | ----------- | ---- | ----------- | ---- | --------- |
+| conv1          | 112×112             | | | 7x7, 64, stride 2                                                                |
+| conv2_x        | 56x56               | | | 3x3 max pool, stride 2                                                           |
+| conv2_x        | 56x56               | \\( \left[ \begin{array}{ccc} a & b & c \\ d & e & f \\ g & h & i \end{array} \right] \times 2 \\)  |     |      |             |      |
+
+
+<br /> 
+
 ## GoogLeNet
 
 **Paper**: <br />
