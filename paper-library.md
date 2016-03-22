@@ -11,6 +11,13 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="Spatially-sparse ConvNets"></a>[Spatially-sparse convolutional neural networks](http://arxiv.org/abs/1409.6070)
+
+(B. Graham; 22 Sep 2014)
+
+*Convolutional neural network (CNN) for processing spatially-sparse inputs. Taking advantage of the sparsity allows to train and test deep CNNs more efficiently. Test error on CIFAR-10: 6.28%, and on CIFAR-100: 24.30%. ... to be continued.*
+
+
 #### <a name="CNNs for object detection and pose estimation"></a>[Deep Exemplar 2D-3D Detection by Adapting from Real to Rendered Views](http://arxiv.org/abs/1512.02497)
 
 (F. Massa, B. Russell and M. Aubry; 8 Dec 2015)
