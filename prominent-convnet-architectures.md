@@ -43,15 +43,15 @@ In the following table, the architecture of several entire residual networks of 
 
 | Layer Name | Output Size | 18-Layer Net | 34-Layer Net | 50-Layer Net | 101-Layer Net | 152-Layer Net |
 |:---------- | :---------: | :----------: | :----------: | :----------: | :-----------: | :-----------: |
-| conv1      | 112×112     |              | conv 7x7, 64,| \\(\hspace{-1cm}\\)stride 2
-|            | 56x56       |              | 3x3 max pool,| \\(\hspace{-1cm}\\)stride 2
+| conv1      | 112×112     |              | conv 7x7, 64,| stride 2\\(\hspace{1cm}\\)
+|            | 56x56       |              | 3x3 max pool,| stride 2\\(\hspace{1cm}\\)
 | conv2_x    | 56x56       | \\(\left[\text{3x3, 64}\atop\text{3x3, 64}\right] \times 2\\) | \\(\left[\text{3x3, 64}\atop\text{3x3, 64}\right] \times 3\\) | \\(\left[\text{1x1, 64}\atop{\scriptstyle\text{3x3, 64}\atop\scriptstyle\text{1x1, 256}}\right] \times 3\\) | \\(\left[\text{1x1, 64}\atop{\scriptstyle\text{3x3, 64}\atop\scriptstyle\text{1x1, 256}}\right] \times 3\\) | \\(\left[\text{1x1, 64}\atop{\scriptstyle\text{3x3, 64}\atop\scriptstyle\text{1x1, 256}}\right] \times 3\\) |
 | conv3_x    | 28x28       | \\(\left[\text{3x3, 128}\atop\text{3x3, 128}\right] \times 2\\) | \\(\left[\text{3x3, 128}\atop\text{3x3, 128}\right] \times 4\\) | \\(\left[\text{1x1, 128}\atop{\scriptstyle\text{3x3, 128}\atop\scriptstyle\text{1x1, 512}}\right] \times 4\\) | \\(\left[\text{1x1, 128}\atop{\scriptstyle\text{3x3, 128}\atop\scriptstyle\text{1x1, 512}}\right] \times 4\\) | \\(\left[\text{1x1, 128}\atop{\scriptstyle\text{3x3, 128}\atop\scriptstyle\text{1x1, 512}}\right] \times 8\\) |
 | conv4_x    | 14x14       | \\(\left[\text{3x3, 256}\atop\text{3x3, 256}\right] \times 2\\) | \\(\left[\text{3x3, 256}\atop\text{3x3, 256}\right] \times 6\\) | \\(\left[\text{1x1, 256}\atop{\scriptstyle\text{3x3, 256}\atop\scriptstyle\text{1x1, 1024}}\right] \times 6\\) | \\(\left[\text{1x1, 256}\atop{\scriptstyle\text{3x3, 256}\atop\scriptstyle\text{1x1, 1024}}\right] \times 23\\) | \\(\left[\text{1x1, 256}\atop{\scriptstyle\text{3x3, 256}\atop\scriptstyle\text{1x1, 1024}}\right] \times 36\\) |   
 | conv5_x    | 7x7         |  \\(\left[\text{3x3, 512}\atop\text{3x3, 512}\right] \times 2\\) |  \\(\left[\text{3x3, 512}\atop\text{3x3, 512}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\scriptstyle\text{3x3, 512}\atop\scriptstyle\text{1x1, 2048}}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\scriptstyle\text{3x3, 512}\atop\scriptstyle\text{1x1, 2048}}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\scriptstyle\text{3x3, 512}\atop\scriptstyle\text{1x1, 2048}}\right] \times 3\\) |
-|            |             |              | \\(\hspace{1cm}\\)average\\(\hspace{-1cm}\\) | \\(\hspace{-1cm}\\)pooling
-|            |             |              | \\(\hspace{1cm}\\)1000-d\\(\hspace{-1cm}\\)  | \\(\hspace{-1cm}\\)fully conn
-|            |             |              | \\(\hspace{1cm}\\)softmax\\(\hspace{-1cm}\\)
+|            |             |              | \\(\hspace{1cm}\\)average | pooling\\(\hspace{1cm}\\)
+|            |             |              | \\(\hspace{1cm}\\)1000-d  | fully conn\\(\hspace{1cm}\\)
+|            |             |              | \\(\hspace{1cm}\\)softmax
 | FLOPs      |             | 1.8x10⁹ | 3.6x10⁹ | 3.8x10⁹ | 7.6x10⁹ | 11.3x10⁹ |
 
 <br /> 
