@@ -22,13 +22,35 @@ mathjax: true
 [Original implementation by K. He](https://github.com/KaimingHe/deep-residual-networkst) (models are converted to a recent (2016/2/3) version of Caffe) and [Torch implementation by Facebook AI Research](https://github.com/facebook/fb.resnet.torch) <br /> 
 
 **Description:** <br />
-Winner of the [ILSVRC 2015](http://image-net.org/challenges/LSVRC/2015/) object detection and image classification and localization tasks. Neural networks with depth of over 150 layers are used together with a "deep residual learning" framework that eases the optimization and convergence of extremely deep networks. The localization and detection systems are in addition based on the ["Faster R-CNN"](http://arxiv.org/abs/1506.01497) system of S. Ren at al
+Winner of the [ILSVRC 2015](http://image-net.org/challenges/LSVRC/2015/) object detection and image classification and localization tasks. Neural networks with depth of up to 152 layers are used together with a "deep residual learning" framework that eases the optimization and convergence of extremely deep networks. The localization and detection systems are in addition based on the ["Faster R-CNN"](http://arxiv.org/abs/1506.01497) system of S. Ren et al. The "deep residual framework" has been developed especially for very deep networks to overcome their "degradation problem" of rapidly degrading accuracy, which as stated by the authors, is not caused by overfitting. The main idea of the "deep residual framework" is the following: Instead of hoping each few stacked layers to directly fit a desired underlying mapping \\(\mathcal{H}(x)\\), explicitly let these layers fit a residual mapping \\(\mathcal{F}(x) := \mathcal{H}(x) - x\\), where \\(x\\) denotes the inputs to the first of these layers. Thus, the original mapping is recast into \\(\mathcal{F}(x) + x\\). This idea is built on the assumption that it is easier to optimize the residual mapping than to optimize the original, unreferenced mapping. The formulation \\(\mathcal{F}(x) + x\\) is realized by feedforward neural networks with "shortcut connections" that skip one or more layers. Here, the "shortcut connections" simply perform identity mapping, and their outputs are added to the outputs of the stacked layers. Experiments suggest that the identity mappings provide a good  preconditioning to the problem. Hence, the optimal function seems to be closer to an identity mapping than to a zero mapping, such that it is easier for the solver to find the perturbations with reference to an identity mapping, than to learn the functions as a new one. The entire network can be trained end-to-end by SGD with backpropagation and moreover shows an excellent generalization performance. <br /> 
+
+<br /> 
+
+Example building block of residual learning: <br /> 
+
+ \\({\small \textbf{Input}} \ \longrightarrow \ {\small \textbf{Convolution}} \ \longrightarrow \ {\textbf{Batch} \atop \textbf{Normalization}} \ \longrightarrow \ {\small \textbf{ReLU}} \ \longrightarrow \ {\small \textbf{Convolution}} \ \longrightarrow \ {\textbf{Batch} \atop \textbf{Normalization}} \ \longrightarrow \ {\textbf{Addition of} \atop \textbf{Input to Output}} \ \longrightarrow \ {\small \textbf{ReLU}} \ \longrightarrow \ {\small \textbf{Output}}\\) 
+
+<br />
+
+| Residual block              |
+| :-------------------------: |
+| Input                       |
+| Convolution                 |
+| Batch Normalization         |
+| ReLU                        |
+| Convolution                 |
+| Batch Normalization         |
+| Addition of Input to Output |
+| ReLU                        |
+| Output                      |
+
+<br /> 
 
 
 | Layer Name | Output Size | 18-Layer Net | 34-Layer Net | 50-Layer Net | 101-Layer Net | 152-Layer Net |
 |:---------- | :---------: | :----------: | :----------: | :----------: | :-----------: | :-----------: |
-| conv1      | 112×112     |              | conv 7x7, 64,| stride 2 \\(hspace{1cm}\\)
-|            | 56x56       |              | 3x3 max pool,| stride 2 \\(hspace{1cm}\\)
+| conv1      | 112×112     |              | conv 7x7, 64,| stride 2
+|            | 56x56       |              | 3x3 max pool,| stride 2
 | conv2_x    | 56x56       | \\(\left[\text{3x3, 64}\atop\text{3x3, 64}\right] \times 2\\) | \\(\left[\text{3x3, 64}\atop\text{3x3, 64}\right] \times 3\\) | \\(\left[\text{1x1, 64}\atop{\scriptstyle\text{3x3, 64}\atop\scriptstyle\text{1x1, 256}}\right] \times 3\\) | \\(\left[\text{1x1, 64}\atop{\scriptstyle\text{3x3, 64}\atop\scriptstyle\text{1x1, 256}}\right] \times 3\\) | \\(\left[\text{1x1, 64}\atop{\scriptstyle\text{3x3, 64}\atop\scriptstyle\text{1x1, 256}}\right] \times 3\\) |
 | conv3_x    | 28x28       | \\(\left[\text{3x3, 128}\atop\text{3x3, 128}\right] \times 2\\) | \\(\left[\text{3x3, 128}\atop\text{3x3, 128}\right] \times 4\\) | \\(\left[\text{1x1, 128}\atop{\scriptstyle\text{3x3, 128}\atop\scriptstyle\text{1x1, 512}}\right] \times 4\\) | \\(\left[\text{1x1, 128}\atop{\scriptstyle\text{3x3, 128}\atop\scriptstyle\text{1x1, 512}}\right] \times 4\\) | \\(\left[\text{1x1, 128}\atop{\scriptstyle\text{3x3, 128}\atop\scriptstyle\text{1x1, 512}}\right] \times 8\\) |
 | conv4_x    | 14x14       | \\(\left[\text{3x3, 256}\atop\text{3x3, 256}\right] \times 2\\) | \\(\left[\text{3x3, 256}\atop\text{3x3, 256}\right] \times 6\\) | \\(\left[\text{1x1, 256}\atop{\scriptstyle\text{3x3, 256}\atop\scriptstyle\text{1x1, 1024}}\right] \times 6\\) | \\(\left[\text{1x1, 256}\atop{\scriptstyle\text{3x3, 256}\atop\scriptstyle\text{1x1, 1024}}\right] \times 23\\) | \\(\left[\text{1x1, 256}\atop{\scriptstyle\text{3x3, 256}\atop\scriptstyle\text{1x1, 1024}}\right] \times 36\\) |   
