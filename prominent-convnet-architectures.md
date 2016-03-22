@@ -56,6 +56,32 @@ In the following table, the architecture of several entire residual networks of 
 
 <br /> 
 
+## New Results on ResNet
+
+**Paper**: <br />
+[Identity Mappings in Deep Residual Networks](http://arxiv.org/abs/1603.05027) (K. He, X. Zhang, S. Ren and J. Sun; 16 Mar 2016) <br /> 
+
+**Code:** <br />
+See above. <br /> 
+
+**Description:** <br />
+Proposal of a rearranged residual unit with *"pre-activation"*. That means, placing the rectified linear unit (ReLU) and batch normalization (BN) before the weight layers instead of after, is shown to further improve the results of the deep residual network.
+
+New architecture of residual building block (with *"pre-activation"*): <br /> 
+
+| Input                       |
+| :-------------------------: |
+| Batch Normalization         |
+| ReLU                        |
+| Convolution                 |
+| Batch Normalization         |
+| ReLU                        |
+| Convolution                 |
+| \\({\small \textbf{Addition of Input to Output!}}\\) |
+| Output                      |
+
+<br /> 
+
 ## GoogLeNet
 
 **Paper**: <br />
