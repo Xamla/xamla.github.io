@@ -49,7 +49,9 @@ In the following table, the architecture of several entire residual networks of 
 | conv3_x    | 28x28       | \\(\left[\text{3x3, 128}\atop\text{3x3, 128}\right] \times 2\\) | \\(\left[\text{3x3, 128}\atop\text{3x3, 128}\right] \times 4\\) | \\(\left[\text{1x1, 128}\atop{\scriptstyle\text{3x3, 128}\atop\scriptstyle\text{1x1, 512}}\right] \times 4\\) | \\(\left[\text{1x1, 128}\atop{\scriptstyle\text{3x3, 128}\atop\scriptstyle\text{1x1, 512}}\right] \times 4\\) | \\(\left[\text{1x1, 128}\atop{\scriptstyle\text{3x3, 128}\atop\scriptstyle\text{1x1, 512}}\right] \times 8\\) |
 | conv4_x    | 14x14       | \\(\left[\text{3x3, 256}\atop\text{3x3, 256}\right] \times 2\\) | \\(\left[\text{3x3, 256}\atop\text{3x3, 256}\right] \times 6\\) | \\(\left[\text{1x1, 256}\atop{\scriptstyle\text{3x3, 256}\atop\scriptstyle\text{1x1, 1024}}\right] \times 6\\) | \\(\left[\text{1x1, 256}\atop{\scriptstyle\text{3x3, 256}\atop\scriptstyle\text{1x1, 1024}}\right] \times 23\\) | \\(\left[\text{1x1, 256}\atop{\scriptstyle\text{3x3, 256}\atop\scriptstyle\text{1x1, 1024}}\right] \times 36\\) |   
 | conv5_x    | 7x7         |  \\(\left[\text{3x3, 512}\atop\text{3x3, 512}\right] \times 2\\) |  \\(\left[\text{3x3, 512}\atop\text{3x3, 512}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\scriptstyle\text{3x3, 512}\atop\scriptstyle\text{1x1, 2048}}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\scriptstyle\text{3x3, 512}\atop\scriptstyle\text{1x1, 2048}}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\scriptstyle\text{3x3, 512}\atop\scriptstyle\text{1x1, 2048}}\right] \times 3\\) |
-|            | 1x1         |              | average pool, | 1000-d fc, | softmax
+|            |             |              | \\(\hspace{1cm}\\)average pool\\(\hspace{-1cm}\\)
+|            |             |              | 1000-d fc
+|            |             |              | softmax
 | FLOPs      |             | 1.8x10⁹ | 3.6x10⁹ | 3.8x10⁹ | 7.6x10⁹ | 11.3x10⁹ |
 
 <br /> 
