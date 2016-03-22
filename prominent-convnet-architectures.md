@@ -33,7 +33,7 @@ Example building block of residual learning: <br />
 | ReLU                        |
 | Convolution                 |
 | Batch Normalization         |
-| \\({\small \textbf{Addition of Input to Output!}})\\ |
+| \\({\small \textbf{Addition of Input to Output}})\\ |
 | ReLU                        |
 | Output                      |
 
