@@ -28,13 +28,12 @@ Winner of the [ILSVRC 2015](http://image-net.org/challenges/LSVRC/2015/) object 
 
 Example building block of residual learning: <br /> 
 
- \\({\small \textbf{Input}} \ \longrightarrow \ {\small \textbf{Convolution}} \ \longrightarrow \ {\textbf{Batch} \atop \textbf{Normalization}} \ \longrightarrow \ {\small \textbf{ReLU}} \ \longrightarrow \ {\small \textbf{Convolution}} \ \longrightarrow \ {\textbf{Batch} \atop \textbf{Normalization}} \ \longrightarrow \ {\textbf{Addition of} \atop \textbf{Input to Output}} \ \longrightarrow \ {\small \textbf{ReLU}} \ \longrightarrow \ {\small \textbf{Output}}\\) 
+ \\({\small \textbf{Input}} \ \longrightarrow \ {\small \textbf{Conv}} \ \longrightarrow \ {\textbf{Batch} \atop \textbf{Norm}} \ \longrightarrow \ {\small \textbf{ReLU}} \ \longrightarrow \ {\small \textbf{Conv}} \ \longrightarrow \ {\textbf{Batch} \atop \textbf{Norm}} \ \longrightarrow \ {\textbf{Addition of} \atop \textbf{Input to Output}} \ \longrightarrow \ {\small \textbf{ReLU}} \ \longrightarrow \ {\small \textbf{Output}}\\) 
 
 <br />
 
-| Residual block              |
-| :-------------------------: |
 | Input                       |
+| :-------------------------: |
 | Convolution                 |
 | Batch Normalization         |
 | ReLU                        |
@@ -46,6 +45,7 @@ Example building block of residual learning: <br />
 
 <br /> 
 
+In the following table, the architecture of entire residual networks of different depth are presented. Building blocks (as e.g. the example building block from above) are shown in brackets together with the number of blocks stacked. Downsampling is performed by conv3_1, conv4_1, and conv5_1 with a stride of 2.
 
 | Layer Name | Output Size | 18-Layer Net | 34-Layer Net | 50-Layer Net | 101-Layer Net | 152-Layer Net |
 |:---------- | :---------: | :----------: | :----------: | :----------: | :-----------: | :-----------: |
@@ -57,14 +57,6 @@ Example building block of residual learning: <br />
 | conv5_x    | 7x7         |  \\(\left[\text{3x3, 512}\atop\text{3x3, 512}\right] \times 2\\) |  \\(\left[\text{3x3, 512}\atop\text{3x3, 512}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\scriptstyle\text{3x3, 512}\atop\scriptstyle\text{1x1, 2048}}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\scriptstyle\text{3x3, 512}\atop\scriptstyle\text{1x1, 2048}}\right] \times 3\\) | \\(\left[\text{1x1, 512}\atop{\scriptstyle\text{3x3, 512}\atop\scriptstyle\text{1x1, 2048}}\right] \times 3\\) |
 |            | 1x1         |              | average pool, | 1000-d fc, | softmax
 | FLOPs      |             | 1.8x10⁹ | 3.6x10⁹ | 3.8x10⁹ | 7.6x10⁹ | 11.3x10⁹ |
-
-<br /> 
-
-Building blocks are shown in brackets with the numbers of blocks stacked. Downsampling is performed by conv3_1, conv4_1, and conv5_1 with a stride of 2.
-
-<br /> 
-
-... to be continued
 
 <br /> 
 
