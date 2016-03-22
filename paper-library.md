@@ -75,6 +75,13 @@ Finally, the presented method has been tested to be more robust to perturbations
 (S. Bell, C. L. Zitnick, K. Bala and R. Girshick; 14 Dec 2015)
 
 
+#### <a name="ResNet with pre-activation"></a>[Identity Mappings in Deep Residual Networks](http://arxiv.org/abs/1603.05027)
+
+(K. He, X. Zhang, S. Ren and J. Sun; 16 Mar 2016)
+
+*Proposal of a rearranged residual building block with “pre-activation”. More precisely, placing the rectified linear unit (ReLU) and batch normalization (BN) before the weight layers instead of after, is shown to further improve the results of the deep residual network.*
+
+
 #### <a name="Deep Residual Learning for Image Recognition"></a>[Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385)
 
 (K. He, X. Zhang, S. Ren and J. Sun; 10 Dec 2015) 
@@ -420,6 +427,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Gradient-based Hyperparameter Optimization through Reversible Learning](#HyperparamOpt) <br />
 [Grid Long Short-Term Memory](#Grid LSTM) <br />
 [Human-level control through deep reinforcement learning](#Atari2) <br />
+[Identity Mappings in Deep Residual Networks](#ResNet with pre-activation) <br />
 [ImageNet Classification with Deep Convolutional Neural Networks](#AlexNet) <br />
 [Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks](#Inside-Outside Net) <br />
 [Large Scale Distributed Deep Networks](#Large Scale Distributed Deep Networks) <br />
