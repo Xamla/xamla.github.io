@@ -11,6 +11,21 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="Scene Labeling with 2D LSTM"></a>[Scene Labeling with LSTM Recurrent Neural Networks](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Byeon_Scene_Labeling_With_2015_CVPR_paper.pdf)
+
+(W. Byeon, T. M. Breuel, F. Raue and M. Liwicki; June 2015)
+
+
+#### <a name="Recurrent CNNs for object recognition"></a>[Recurrent Convolutional Neural Network for Object Recognition](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Liang_Recurrent_Convolutional_Neural_2015_CVPR_paper.pdf)
+
+(M. Liang and X. Hu; 2015)
+
+
+#### <a name="Recurrent CNNs for scene labeling"></a>[Recurrent Convolutional Neural Networks for Scene Labeling](http://jmlr.org/proceedings/papers/v32/pinheiro14.pdf)
+
+(P. O. Pinheiro and R. Collobert; 2014)
+
+
 #### <a name="Sparse 3D CNNs"></a>[Sparse 3D convolutional neural networks](http://arxiv.org/abs/1505.02890)
 
 (B. Graham; 12 May 2015)
@@ -467,6 +482,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Rethinking the Inception Architecture for Computer Vision](#Inception2) <br />
 [RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features](#RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features) <br />
 [Rich feature hierarchies for accurate object detection and semantic segmentation](#R-CNN) <br />
+[Scene Labeling with LSTM Recurrent Neural Networks](#Scene Labeling with 2D LSTM) <br />
 [SimTrack: A Simulation-based Framework for Scalable Real-time Object Pose Detection and Tracking](#SimTrack) <br />
 [Sparse 3D convolutional neural networks](#Sparse 3D CNNs) <br />
 [Spatially-sparse convolutional neural networks](#Spatially-sparse ConvNets) <br />
