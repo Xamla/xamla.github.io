@@ -477,6 +477,8 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Playing Atari with Deep Reinforcement Learning](#Atari1) <br />
 [Real-Time Full-Body Human Attribute Classification in RGB-D Using a Tessellation Boosting Approach](#RGB-D Human Attribute Classification) <br />
 [R-CNN minus R](#R-CNN minus R) <br />
+[Recurrent Convolutional Neural Network for Object Recognition](#Recurrent CNNs for object recognition) <br />
+[Recurrent Convolutional Neural Networks for Scene Labeling](#Recurrent CNNs for scene labeling) <br />
 [Recurrent Spatial Transformer Networks](#Recurrent Spatial Transformer Networks) <br />
 [ReNet: A Recurrent Neural Network Based Alternative to Convolutional Networks](#ReNet) <br />
 [Rethinking the Inception Architecture for Computer Vision](#Inception2) <br />
@@ -493,4 +495,3 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Understanding the difﬁculty of training deep feedforward neural networks](#Difficulty of Training DNN) <br />
 [Very Deep Convolutional Networks for Large-Scale Image Recognition](#VGG) <br />
 [Visualizing and Understanding Convolutional Networks](#ZFNet) <br />
-
