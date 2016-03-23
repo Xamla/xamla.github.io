@@ -11,6 +11,11 @@ mathjax: true
 ### Papers with description:
 
 
+#### <a name="Sparse 3D CNNs"></a>[Sparse 3D convolutional neural networks](http://arxiv.org/abs/1505.02890)
+
+(B. Graham; 12 May 2015)
+
+
 #### <a name="Spatially-sparse ConvNets"></a>[Spatially-sparse convolutional neural networks](http://arxiv.org/abs/1409.6070)
 
 (B. Graham; 22 Sep 2014)
@@ -463,6 +468,8 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features](#RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features) <br />
 [Rich feature hierarchies for accurate object detection and semantic segmentation](#R-CNN) <br />
 [SimTrack: A Simulation-based Framework for Scalable Real-time Object Pose Detection and Tracking](#SimTrack) <br />
+[Sparse 3D convolutional neural networks](#Sparse 3D CNNs) <br />
+[Spatially-sparse convolutional neural networks](#Spatially-sparse ConvNets) <br />
 [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](#SPPNet) <br />
 [Spatial Transformer Networks](#Spatial Transformer Networks) <br />
 [Speed learning on the fly](#SpeedLearning) <br />
