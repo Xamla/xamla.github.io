@@ -8,7 +8,7 @@ mathjax: true
 #### [\\(\rightarrow\\) Index of titles](#Title index) <br />
 
 
-### Papers with description:
+## Papers with description:
 
 
 #### <a name="VQA"></a>[VQA: Visual Question Answering](http://arxiv.org/abs/1505.00468) 
