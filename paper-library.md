@@ -11,6 +11,13 @@ mathjax: true
 ### Papers with description:
 
 
+[VQA: Visual Question Answering](http://arxiv.org/abs/1505.00468) 
+
+(S. Antol, A. Agrawal, J. Lu, M. Mitchell, D. Batra, C. L. Zitnick and D. Parikh; 3 May 2015)
+
+*The task of free-form and open-ended visual question answering (VQA) is introduced. Moreover, a corresponding [challenge](http://www.visualqa.org/challenge.html) is organized, a suitable [dataset](http://www.visualqa.org/download.html) is provided and a [first solution](https://github.com/VT-vision-lab/VQA_LSTM_CNN) to this task is presented. Visual question answering means: Given an image and a natural language question about the image, the task is to provide an accurate natural language answer. Here, both and open-ended answering task and a multiple-choice task are considered. Visual questions selectively target different areas of an image, including background details and underlying context. As a result, a system that succeeds at VQA typically needs a more detailed understanding of the image and complex reasoning than a system producing generic image captions. It requires a potentially vast set of AI capabilities, as e.g. fine-grained recognition, object detection, activity recognition, knowledge base reasoning and commonsense reasoning. VQA is natrually grounded in images requiring the understanding of both text and vision. A rich variety of visual concepts emerge from visual questions and their answers. Several slightly different models for solving the VQA task are presented. The best performing model combines the output of an LSTM with the normalized activations from the last hidden layer of a deep CNN. More precisely, a two hidden layer LSTM is used to encode the text questions and the last hidden layer of a VGGNet (VGG19) is used to encode the images. The image features are moreover l2-normalized. The question and image features are transformed to a common space (each via fully-connected layer + tanh non-linearity) and fused via element-wise multiplication. The result is passed through  a fully connected neural network classifier with 2 hidden layers and 1000 hidden units (dropout 0.5) in each layer with tanh non-linearity, followed by a softmax layer to obtain a distribution over answers. The entire model is learned end-to-end with a cross-entropy loss. VGGNet parameters are frozen to those learned for ImageNet classification and not fine-tuned in the image channel.*
+
+
 #### <a name="Scene Labeling with 2D LSTM"></a>[Scene Labeling with LSTM Recurrent Neural Networks](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Byeon_Scene_Labeling_With_2015_CVPR_paper.pdf)
 
 (W. Byeon, T. M. Breuel, F. Raue and M. Liwicki; June 2015)
