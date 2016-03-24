@@ -11,7 +11,7 @@ mathjax: true
 ### Papers with description:
 
 
-[VQA: Visual Question Answering](http://arxiv.org/abs/1505.00468) 
+#### <a name="VQA"></a>[VQA: Visual Question Answering](http://arxiv.org/abs/1505.00468) 
 
 (S. Antol, A. Agrawal, J. Lu, M. Mitchell, D. Batra, C. L. Zitnick and D. Parikh; 3 May 2015)
 
