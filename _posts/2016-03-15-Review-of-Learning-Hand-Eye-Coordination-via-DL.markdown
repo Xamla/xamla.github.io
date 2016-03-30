@@ -55,13 +55,14 @@ The dimensions and position of the workspace were set manually, by moving the ar
 
 ## Data collection method
 * Collection of about 800000 grasp attempts over the course of two months, using between 6 and 14 robots at any given point in time, without any manual annotation or supervision. 
-* The only human intervention into the data collection process was to replace the object in the bins in front of the robots and turn on the system. 
+* The only human intervention into the data collection process was to replace the objects in the bins in front of the robots and turn on the system. 
 * The data collection process started with *"random motor command selection"* and T = 2, i.e. two motion commands, where only the first motion command is a real movement and the second motion command is always closing the gripper without moving.
-  * When executing completely *"random"* motor commands, the robots were successful on 10% - 30% of the grasp attempts, depending on the particular objects in front of them. 
-  * Note: If I understand this correctly, all trajectories (which at the beginning is only one *"random"* motion with subsequent gripper closing) are constrained to keep the final pose of the gripper within the workspace (i.e. on the table surface and within the object bin)? (see appendix A *"Servoing Implementation Details"* of the paper)
+   * When executing completely *"random"* motor commands, the robots were successful on 10% - 30% of the grasp attempts, depending on the particular objects in front of them. 
+   * Note: If I understand this correctly, all trajectories (which at the beginning is only one *"random"* motion with subsequent gripper closing) are constrained to keep the final pose of the gripper within the workspace (i.e. on the table surface and within the object bin)? (see appendix A *"Servoing Implementation Details"* of the paper)
 * About half of the dataset was collected using *"random"* grasps, and the rest used the latest network fitted to all of the data collected so far. 
 * Over the course of data collection, the network has been updated 4 times, and the number of steps (motion commands) have been increased from T = 2 at the beginning to T = 10 at the end, i.e. the length of the trajectories increased over the course of data collection.
-* The objects (common household and office items) were placed in front of the robots into metal bins with sloped sides to prevent the objects from becoming wedged into corners. The objects were periodically swapped out to increase the diversity of the training data.
+* The objects (common household and office items) were placed in front of the robots into metal bins with sloped sides to prevent the objects from becoming wedged into corners. The objects were periodically swapped out to increase the diversity of the training data. <br />
+<br />
 
 ## Two methods of grasp success evaluation during data collection:
 * The position reading on the gripper is greater than 1cm, indicating that the fingers have not closed fully 
