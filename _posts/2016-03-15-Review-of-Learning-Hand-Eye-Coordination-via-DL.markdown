@@ -37,8 +37,11 @@ objects in the scene.
 ## Servoing mechanism (cross-entropy method):
 The servoing mechanism uses the grasp prediction network to choose the motor commands for the robot that will maximize the probability of a success grasp. 
 Thereto a *“small”* optimization on \\(v_t\\) is performed using *three iterations of the cross-entropy method (CEM)*, a simple derivative-free optimization algorithm.
-CEM samples a batch of N values at each iteration, fits a Gaussian distribution to M < N of these samples, and then samples a new batch of N from this Gaussian. 
-(Here: N = 64, M = 6.)
+CEM samples a batch of N values at each iteration, fits a Gaussian distribution to M < N of these samples, and then samples a new batch of N from this Gaussian.  <br />
+(Here: N = 64 sample grasp directions \\(v_t\\), M = 6 best grasp directions.) <br />
+All samples are constrained (via rejection sampling) to keep the final pose of the gripper within the workspace, and to avoid rotations of more than 180° about the vertical axis. In general, these constraints could be used to control where in the scene the robot attempts to grasp. <br />
+Since the CNN was trained to predict the success of grasps on sequences that always terminated with the gripper on the table surface, all grasp directions \\(v_t\\) were projected to the table height (which has to be known) before they were passed into the network.
+The dimensions and position of the workspace were set manually, by moving the arm into each corner of the workspace and setting the corner coordinates.
 
 ## Two heuristics for gripper and robot motion:
 * The gripper is closed whenever the network predicts that no motion will succeed with a probability that is at least 90% of the best inferred motion. <br />
@@ -49,6 +52,16 @@ CEM samples a batch of N values at each iteration, fits a Gaussian distribution 
   in a good configuration, and a large motion will be required. Therefore, raising the gripper off the table minimizes
   the chance of hitting other objects that are in the way. <br />
 <br />
+
+## Data collection method
+* Collection of about 800000 grasp attempts over the course of two months, using between 6 and 14 robots at any given point in time, without any manual annotation or supervision. 
+* The only human intervention into the data collection process was to replace the object in the bins in front of the robots and turn on the system. 
+* The data collection process started with *"random motor command selection"* and T = 2, i.e. two motion commands, where only the first motion command is a real movement and the second motion command is always closing the gripper without moving.
+  * When executing completely *"random"* motor commands, the robots were successful on 10% - 30% of the grasp attempts, depending on the particular objects in front of them. 
+  * Note: If I understand this correctly, all trajectories (which at the beginning is only one *"random"* motion with subsequent gripper closing) are constrained to keep the final pose of the gripper within the workspace (i.e. on the table surface and within the object bin)? (see appendix A *"Servoing Implementation Details"* of the paper)
+* About half of the dataset was collected using *"random"* grasps, and the rest used the latest network fitted to all of the data collected so far. 
+* Over the course of data collection, the network has been updated 4 times, and the number of steps (motion commands) have been increased from T = 2 at the beginning to T = 10 at the end, i.e. the length of the trajectories increased over the course of data collection.
+* The objects (common household and office items) were placed in front of the robots into metal bins with sloped sides to prevent the objects from becoming wedged into corners. The objects were periodically swapped out to increase the diversity of the training data.
 
 ## Two methods of grasp success evaluation during data collection:
 * The position reading on the gripper is greater than 1cm, indicating that the fingers have not closed fully 
@@ -66,3 +79,4 @@ CEM samples a batch of N values at each iteration, fits a Gaussian distribution 
     location.)
 * Grasps automatically were adapted to the different material properties of the objects. 
 * Even challenging (e.g. flat) objects could be grasped.
+* Results of experimenting with the training data sizes suggest that collecting additional data could further improve the accuracy of the grasping sypstem. Thus experiments with even larger datasets are planned for future work.
