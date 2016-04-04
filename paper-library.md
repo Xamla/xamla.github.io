@@ -11,6 +11,16 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="Semantic Object Parsing"></a>[Semantic Object Parsing with Graph LSTM](http://arxiv.org/abs/1603.07063)
+
+(X. Liang, X. Shen, J. Feng, L. Lin and S. Yan; 23 Mar 2016)
+
+
+#### <a name="Vector Representation for Objects"></a>[Learning a Predictable and Generative Vector Representation for Objects](http://arxiv.org/abs/1603.08637)
+
+(R. Girdhar, D. F. Fouhey, M. Rodriguez and A. Gupta; 29 Mar 2016)
+
+
 #### <a name="VQA"></a>[VQA: Visual Question Answering](http://arxiv.org/abs/1505.00468) 
 
 (S. Antol, A. Agrawal, J. Lu, M. Mitchell, D. Batra, C. L. Zitnick and D. Parikh; 3 May 2015)
@@ -465,6 +475,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [ImageNet Classification with Deep Convolutional Neural Networks](#AlexNet) <br />
 [Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks](#Inside-Outside Net) <br />
 [Large Scale Distributed Deep Networks](#Large Scale Distributed Deep Networks) <br />
+[Learning a Predictable and Generative Vector Representation for Objects](#Vector Representation for Objects) <br />
 [Learning both Weights and Connections for Efficient Neural Networks](#Weights and Connections Learning) <br />
 [Learning Compound Multi-Step Controllers under Unknown Dynamics](#Learning Compound Multi-Step Controllers under Unknown Dynamics) <br />
 [Learning Deconvolution Network for Semantic Segmentation](#Deconv) <br />
@@ -492,6 +503,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features](#RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features) <br />
 [Rich feature hierarchies for accurate object detection and semantic segmentation](#R-CNN) <br />
 [Scene Labeling with LSTM Recurrent Neural Networks](#Scene Labeling with 2D LSTM) <br />
+[Semantic Object Parsing with Graph LSTM](#Semantic Object Parsing) <br />
 [SimTrack: A Simulation-based Framework for Scalable Real-time Object Pose Detection and Tracking](#SimTrack) <br />
 [Sparse 3D convolutional neural networks](#Sparse 3D CNNs) <br />
 [Spatially-sparse convolutional neural networks](#Spatially-sparse ConvNets) <br />
