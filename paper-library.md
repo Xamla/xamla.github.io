@@ -11,6 +11,16 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="Stability of SGD"></a>[Train faster, generalize better: Stability of stochastic gradient descent](http://arxiv.org/abs/1509.01240)
+
+(M. Hardt, B. Recht and Y. Singer; 3 Sep 2015)
+
+
+#### <a name="A MultiPath Network for Object Detection"></a>[A MultiPath Network for Object Detection](http://arxiv.org/abs/1604.02135)
+
+(S. Zagoruyko, A. Lerer, T.-Y. Lin, P. O. Pinheiro, S. Gross, S. Chintala and P. Dollár; 7 Apr 2016)
+
+
 #### <a name="Semantic Object Parsing"></a>[Semantic Object Parsing with Graph LSTM](http://arxiv.org/abs/1603.07063)
 
 (X. Liang, X. Shen, J. Feng, L. Lin and S. Yan; 23 Mar 2016)
@@ -447,6 +457,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 ### <a name="Title index"></a>Index of titles:
 
 [3D ShapeNets: A Deep Representation for Volumetric Shape Modeling](#3D ShapeNets) <br />
+[A MultiPath Network for Object Detection](#A MultiPath Network for Object Detection) <br />
 [A New Method to Visualize Deep Neural Networks](#Visualize DNNs) <br />
 [A robust, coarse-to-ﬁne trafﬁc sign detection method](#Traffic Sign Detection) <br />
 [Building High-level Features Using Large Scale Unsupervised Learning](#High-level Features via Unsupervised Learning) <br />
@@ -510,6 +521,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](#SPPNet) <br />
 [Spatial Transformer Networks](#Spatial Transformer Networks) <br />
 [Speed learning on the fly](#SpeedLearning) <br />
+[Train faster, generalize better: Stability of stochastic gradient descent](#Stability of SGD) <br />
 [Understanding the Bias-Variance Tradeoff](#Bias-Variance Tradeoff) <br />
 [Understanding the difﬁculty of training deep feedforward neural networks](#Difficulty of Training DNN) <br />
 [Very Deep Convolutional Networks for Large-Scale Image Recognition](#VGG) <br />
