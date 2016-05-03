@@ -11,6 +11,16 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="Particular object retrieval with integral max-pooling of CNN activations"></a>[Particular object retrieval with integral max-pooling of CNN activations](http://arxiv.org/abs/1511.05879)
+
+(G. Tolias, R. Sicre and H. Jégou; 18 Nov 2015)
+
+
+#### <a name="Stacked What-Where Auto-encoders"></a>[Stacked What-Where Auto-encoders](https://arxiv.org/abs/1506.02351)
+
+(J. Zhao, M. Mathieu, R. Goroshin and Y. LeCun; 8 Jun 2015)
+
+
 #### <a name="Stability of SGD"></a>[Train faster, generalize better: Stability of stochastic gradient descent](http://arxiv.org/abs/1509.01240)
 
 (M. Hardt, B. Recht and Y. Singer; 3 Sep 2015)
