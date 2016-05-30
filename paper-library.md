@@ -11,6 +11,11 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="RCNN-Depth"></a>[Learning Rich Features from RGB-D Images for Object Detection and Segmentation](http://arxiv.org/abs/1407.5736)
+
+(S. Gupta, R. Girshick, P. Arbelaez and J. Malik; 22 Jul 2014)
+
+
 #### <a name="Particular object retrieval with integral max-pooling of CNN activations"></a>[Particular object retrieval with integral max-pooling of CNN activations](http://arxiv.org/abs/1511.05879)
 
 (G. Tolias, R. Sicre and H. Jégou; 18 Nov 2015)
@@ -502,6 +507,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Learning Deconvolution Network for Semantic Segmentation](#Deconv) <br />
 [Learning Descriptors for Object Recognition and 3D Pose Estimation](#Learning Descriptors for Object Recognition and 3D Pose Estimation) <br />
 [Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection](#Hand-Eye Coordination via DL) <br />
+[Learning Rich Features from RGB-D Images for Object Detection and Segmentation](#RCNN-Depth) <br />
 [Learning to Segment Object Candidates](#Learning to Segment Object Candidates) <br />
 [Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders](#Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders) <br />
 [Look and Think Twice: Capturing Top-Down Visual Attention with Feedback Convolutional Neural Network](#Look Twice)
@@ -513,6 +519,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Network In Network](#NiN) <br />
 [On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models](#Learning to think) <br />
 [On the importance of initialization and momentum in deep learning](#Initialization and Momentum) <br />
+[Particular object retrieval with integral max-pooling of CNN activations](#Particular object retrieval with integral max-pooling of CNN activations) <br />
 [Playing Atari with Deep Reinforcement Learning](#Atari1) <br />
 [Real-Time Full-Body Human Attribute Classification in RGB-D Using a Tessellation Boosting Approach](#RGB-D Human Attribute Classification) <br />
 [R-CNN minus R](#R-CNN minus R) <br />
@@ -531,6 +538,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](#SPPNet) <br />
 [Spatial Transformer Networks](#Spatial Transformer Networks) <br />
 [Speed learning on the fly](#SpeedLearning) <br />
+[Stacked What-Where Auto-encoders](#Stacked What-Where Auto-encoders) <br />
 [Train faster, generalize better: Stability of stochastic gradient descent](#Stability of SGD) <br />
 [Understanding the Bias-Variance Tradeoff](#Bias-Variance Tradeoff) <br />
 [Understanding the difﬁculty of training deep feedforward neural networks](#Difficulty of Training DNN) <br />
