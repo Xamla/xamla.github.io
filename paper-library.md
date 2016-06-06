@@ -11,6 +11,22 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="Context for ObjDet"></a>[Exploring Person Context and Local Scene Context for Object Detection](http://arxiv.org/abs/1511.08177)
+
+(S. Gupta, B. Hariharan and J. Malik; 25 Nov 2015)
+
+
+#### <a name="Aligning 3D Models to RGB-D Images of Cluttered Scenes"></a>[Aligning 3D Models to RGB-D Images of Cluttered Scenes](http://people.eecs.berkeley.edu/~sgupta/pdf/rgbd-pose.pdf)
+(bzw. [Inferring 3D Object Pose in RGB-D Images](http://arxiv.org/abs/1502.04652))
+
+(S. Gupta, P. Arbeláez, R. Girshick and J. Malik; 16 Feb 2015)
+
+
+#### <a name="RCNN-Depth-New"></a>[Cross Modal Distillation for Supervision Transfer](http://arxiv.org/abs/1507.00448)
+
+(S. Gupta, J. Hoffman and J. Malik; 2 Jul 2015)
+
+
 #### <a name="RCNN-Depth"></a>[Learning Rich Features from RGB-D Images for Object Detection and Segmentation](http://arxiv.org/abs/1407.5736)
 
 (S. Gupta, R. Girshick, P. Arbelaez and J. Malik; 22 Jul 2014)
