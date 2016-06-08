@@ -11,15 +11,18 @@ mathjax: true
 ## Papers with description:
 
 
-#### <a name="Context for ObjDet"></a>[Exploring Person Context and Local Scene Context for Object Detection](http://arxiv.org/abs/1511.08177)
+#### <a name="ALI"></a>[Adversarially Learned Inference](https://arxiv.org/abs/1606.00704)
 
-(S. Gupta, B. Hariharan and J. Malik; 25 Nov 2015)
+(Vincent Dumoulin, Ishmael Belghazi, Ben Poole, Alex Lamb, Martin Arjovsky, Olivier Mastropietro, Aaron Courville; 2 Jun 2016)
+
+(see also: https://ishmaelbelghazi.github.io/ALI/ and the next paper reference)
 
 
-#### <a name="Aligning 3D Models to RGB-D Images of Cluttered Scenes"></a>[Aligning 3D Models to RGB-D Images of Cluttered Scenes](http://people.eecs.berkeley.edu/~sgupta/pdf/rgbd-pose.pdf)
-(bzw. [Inferring 3D Object Pose in RGB-D Images](http://arxiv.org/abs/1502.04652))
+#### <a name="AFL"></a>[Adversarial Feature Learning](https://arxiv.org/abs/1605.09782)
 
-(S. Gupta, P. Arbeláez, R. Girshick and J. Malik; 16 Feb 2015)
+(Jeff Donahue, Philipp Krähenbühl, Trevor Darrell; 31 May 2016)
+
+(see also: previous paper reference)
 
 
 #### <a name="RCNN-Depth-New"></a>[Cross Modal Distillation for Supervision Transfer](http://arxiv.org/abs/1507.00448)
@@ -30,6 +33,17 @@ mathjax: true
 #### <a name="RCNN-Depth"></a>[Learning Rich Features from RGB-D Images for Object Detection and Segmentation](http://arxiv.org/abs/1407.5736)
 
 (S. Gupta, R. Girshick, P. Arbelaez and J. Malik; 22 Jul 2014)
+
+
+#### <a name="Aligning 3D Models to RGB-D Images of Cluttered Scenes"></a>[Aligning 3D Models to RGB-D Images of Cluttered Scenes](http://people.eecs.berkeley.edu/~sgupta/pdf/rgbd-pose.pdf)
+(bzw. [Inferring 3D Object Pose in RGB-D Images](http://arxiv.org/abs/1502.04652))
+
+(S. Gupta, P. Arbeláez, R. Girshick and J. Malik; 16 Feb 2015)
+
+
+#### <a name="Context for ObjDet"></a>[Exploring Person Context and Local Scene Context for Object Detection](http://arxiv.org/abs/1511.08177)
+
+(S. Gupta, B. Hariharan and J. Malik; 25 Nov 2015)
 
 
 #### <a name="Particular object retrieval with integral max-pooling of CNN activations"></a>[Particular object retrieval with integral max-pooling of CNN activations](http://arxiv.org/abs/1511.05879)
