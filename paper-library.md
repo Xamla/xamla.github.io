@@ -15,14 +15,12 @@ mathjax: true
 
 (Vincent Dumoulin, Ishmael Belghazi, Ben Poole, Alex Lamb, Martin Arjovsky, Olivier Mastropietro, Aaron Courville; 2 Jun 2016)
 
-(see also: https://ishmaelbelghazi.github.io/ALI/ and the next paper reference)
+(see also: [this blog post](https://ishmaelbelghazi.github.io/ALI/ and the next paper reference) and [this code](https://github.com/IshmaelBelghazi/ALI) on GitHub)
 
 
 #### <a name="AFL"></a>[Adversarial Feature Learning](https://arxiv.org/abs/1605.09782)
 
 (Jeff Donahue, Philipp Krähenbühl, Trevor Darrell; 31 May 2016)
-
-(see also: previous paper reference)
 
 
 #### <a name="RCNN-Depth-New"></a>[Cross Modal Distillation for Supervision Transfer](http://arxiv.org/abs/1507.00448)
@@ -502,11 +500,15 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 ### <a name="Title index"></a>Index of titles:
 
 [3D ShapeNets: A Deep Representation for Volumetric Shape Modeling](#3D ShapeNets) <br />
+[Adversarial Feature Learning](#AFL) <br />
+[Adversarially Learned Inference](#ALI) <br />
+[Aligning 3D Models to RGB-D Images of Cluttered Scenes](#Aligning 3D Models to RGB-D Images of Cluttered Scenes) <br />
 [A MultiPath Network for Object Detection](#A MultiPath Network for Object Detection) <br />
 [A New Method to Visualize Deep Neural Networks](#Visualize DNNs) <br />
 [A robust, coarse-to-ﬁne trafﬁc sign detection method](#Traffic Sign Detection) <br />
 [Building High-level Features Using Large Scale Unsupervised Learning](#High-level Features via Unsupervised Learning) <br />
 [Convolutional Neural Networks for joint object detection and pose estimation: A comparative study](#CNNs for object detection and pose estimation) <br />
+[Cross Modal Distillation for Supervision Transfer](#RCNN-Depth-New) <br />
 [Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition](#MNIST) <br />
 [DeepBox: Learning Objectness with Convolutional Networks](#DeepBox) <br />
 [DeepCamera: A Unified Framework for Recognizing Places-of-Interest based on Deep ConvNets](#DeepCamera) <br />
@@ -517,6 +519,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Deep Residual Learning for Image Recognition](#Deep Residual Learning for Image Recognition) <br />
 [Deep Sparse Rectifier Neural Networks](#Deep Sparse Rectifier Neural Networks) <br />
 [Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images](#Detection and 3D Pose Estimation) <br />
+[Exploring Person Context and Local Scene Context for Object Detection](#Context for ObjDet) <br />
 [FaceNet: A Unified Embedding for Face Recognition and Clustering](#FaceNet) <br />
 [Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](#ELUs) <br />
 [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](#Faster R-CNN) <br />
