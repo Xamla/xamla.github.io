@@ -13,14 +13,14 @@ mathjax: true
 
 #### <a name="ALI"></a>[Adversarially Learned Inference](https://arxiv.org/abs/1606.00704)
 
-(Vincent Dumoulin, Ishmael Belghazi, Ben Poole, Alex Lamb, Martin Arjovsky, Olivier Mastropietro, Aaron Courville; 2 Jun 2016)
+(V. Dumoulin, I. Belghazi, B. Poole, A. Lamb, M. Arjovsky, O. Mastropietro and A. Courville; 2 Jun 2016)
 
 (see also: [this blog post](https://ishmaelbelghazi.github.io/ALI/ and the next paper reference) and [this code](https://github.com/IshmaelBelghazi/ALI) on GitHub)
 
 
 #### <a name="AFL"></a>[Adversarial Feature Learning](https://arxiv.org/abs/1605.09782)
 
-(Jeff Donahue, Philipp Krähenbühl, Trevor Darrell; 31 May 2016)
+(J. Donahue, P. Krähenbühl and T. Darrell; 31 May 2016)
 
 
 #### <a name="RCNN-Depth-New"></a>[Cross Modal Distillation for Supervision Transfer](http://arxiv.org/abs/1507.00448)
