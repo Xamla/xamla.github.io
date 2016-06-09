@@ -32,6 +32,8 @@ mathjax: true
 
 (S. Gupta, R. Girshick, P. Arbelaez and J. Malik; 22 Jul 2014)
 
+(see also: [this code](https://github.com/s-gupta/rcnn-depth) on GitHub)
+
 
 #### <a name="Aligning 3D Models to RGB-D Images of Cluttered Scenes"></a>[Aligning 3D Models to RGB-D Images of Cluttered Scenes](http://people.eecs.berkeley.edu/~sgupta/pdf/rgbd-pose.pdf)
 ([Inferring 3D Object Pose in RGB-D Images](http://arxiv.org/abs/1502.04652))
