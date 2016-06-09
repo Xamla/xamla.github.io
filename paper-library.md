@@ -34,7 +34,7 @@ mathjax: true
 
 
 #### <a name="Aligning 3D Models to RGB-D Images of Cluttered Scenes"></a>[Aligning 3D Models to RGB-D Images of Cluttered Scenes](http://people.eecs.berkeley.edu/~sgupta/pdf/rgbd-pose.pdf)
-(bzw. [Inferring 3D Object Pose in RGB-D Images](http://arxiv.org/abs/1502.04652))
+([Inferring 3D Object Pose in RGB-D Images](http://arxiv.org/abs/1502.04652))
 
 (S. Gupta, P. Arbeláez, R. Girshick and J. Malik; 16 Feb 2015)
 
