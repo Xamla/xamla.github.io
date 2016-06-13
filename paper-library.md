@@ -11,6 +11,13 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="CNN advances"></a>[Systematic evaluation of CNN advances on the ImageNet](http://arxiv.org/abs/1606.02228)
+
+(D. Mishkin, N. Sergievskiy and J. Matas; 7 Jun 2016)
+
+*Systematic study of recent advances in CNN architectures, image pre-processing and learning rate schedules on the ImageNet classification task. Studies were performed with AlexNet, VGGNet and GoogleNet. In order to accelerate tests, images sizes where smaller (144xN with N ≥ 128) than the commonly used size of 224x224. In all experiments, SGD with momentum 0.9 is used for learning and initial learning rate is set to 0.01. The L2 weight decay for convolutional weights is set to 5e-4 and is not applied to bias. Dropout with probability 0.5 is used before the two last layers. Networks were initialized with [layer-sequential unit-variance](http://arxiv.org/abs/1511.06422) (LSUV), while biases are initialized to zero. Image pixel intensities were scaled by 0.04, after subtracting the mean of BGR pixel values (104 117 124). In the end (conclusions section of the paper) a summary of recommendations is given including non-linearity, colorspace transformation, learning rate decay policy, pooling variant, batch size, design of last network layers, etc. Also a link to their [GitHub code](https://github.com/ducha-aiki/caffenet-benchmark) is give in the paper. In more detail, they suggest to use ELU nonlinearity after convolutional layers without batch normalization (or ReLU with BN). Next, they recommend to use a combination of max and average pooling, where max pooling should be 2x2/2 or overlapping, i.e. 3x3/2 if zero-padding is done. With the choosen settings a linear learning rate decay seems to be best, while it would be of great interest to test other, more promising [optimization methods](http://sebastianruder.com/optimizing-gradient-descent/) than SGD. Moreover, they recommend to learn a colorspace transformation of RGB via a mini-network of 1x1 convolutions placed between the RGB image and the conv1 layer. The best architecture for such a mini-network has been conv1x1x10->conv1x1x3 with VLReLU. Additionally the last fully connected layers should be treated as convolution and predictions should be averaged over all spatial positions via average pooling (...->Pool5->C3->C1->CLF->AvePool->Softmax).*
+
+
 #### <a name="ALI"></a>[Adversarially Learned Inference](https://arxiv.org/abs/1606.00704)
 
 (V. Dumoulin, I. Belghazi, B. Poole, A. Lamb, M. Arjovsky, O. Mastropietro and A. Courville; 2 Jun 2016)
@@ -577,6 +584,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Spatial Transformer Networks](#Spatial Transformer Networks) <br />
 [Speed learning on the fly](#SpeedLearning) <br />
 [Stacked What-Where Auto-encoders](#Stacked What-Where Auto-encoders) <br />
+[Systematic evaluation of CNN advances on the ImageNet](#CNN advances) <br />
 [Train faster, generalize better: Stability of stochastic gradient descent](#Stability of SGD) <br />
 [Understanding the Bias-Variance Tradeoff](#Bias-Variance Tradeoff) <br />
 [Understanding the difﬁculty of training deep feedforward neural networks](#Difficulty of Training DNN) <br />
