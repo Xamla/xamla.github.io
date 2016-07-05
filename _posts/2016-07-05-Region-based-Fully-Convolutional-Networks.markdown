@@ -1,7 +1,7 @@
 ---
 layout: post
 group: review
-title: "R-FCN (Region-based Fully Convolutional Networks)"
+title: "Region-based Fully Convolutional Networks"
 date:   2016-07-05 13:51:00
 categories: update
 mathjax: true
