@@ -587,6 +587,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Recurrent Spatial Transformer Networks](#Recurrent Spatial Transformer Networks) <br />
 [ReNet: A Recurrent Neural Network Based Alternative to Convolutional Networks](#ReNet) <br />
 [Rethinking the Inception Architecture for Computer Vision](#Inception2) <br />
+[R-FCN: Object Detection via Region-based Fully Convolutional Networks](#R-FCN) <br />
 [RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features](#RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features) <br />
 [Rich feature hierarchies for accurate object detection and semantic segmentation](#R-CNN) <br />
 [Scene Labeling with LSTM Recurrent Neural Networks](#Scene Labeling with 2D LSTM) <br />
