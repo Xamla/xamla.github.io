@@ -11,6 +11,15 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="DelugeNets"></a>[DelugeNets: Deep Networks with Massive and Flexible Cross-layer Information Inflows](https://arxiv.org/abs/1611.05552)
+
+(J. Kuen, X. Kong and G. Wang; 17 Nov 2016)
+
+Torch-Implementierung auf GitHub: [https://github.com/xternalz/DelugeNets](https://github.com/xternalz/DelugeNets) <br />
+GitXiv-Link: [http://www.gitxiv.com/posts/2xngbbYekco87DySH/delugenets-deep-networks-with-massive-and-flexible-cross](http://www.gitxiv.com/posts/2xngbbYekco87DySH/delugenets-deep-networks-with-massive-and-flexible-cross)
+Kommentare auf reddit: [https://www.reddit.com/r/MachineLearning/comments/5l0k6w/r_delugenets_deep_networks_with_massive_and/](https://www.reddit.com/r/MachineLearning/comments/5l0k6w/r_delugenets_deep_networks_with_massive_and/)
+
+
 #### <a name="pix2pix"></a>[Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004v1)
 
 (P. Isola, J.-Y. Zhu, T. Zhou and A. A. Efros; 21 Nov 2016)
@@ -554,6 +563,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Deep multi-scale video prediction beyond mean square error](#Multi-scale video prediction) <br />
 [Deep Residual Learning for Image Recognition](#Deep Residual Learning for Image Recognition) <br />
 [Deep Sparse Rectifier Neural Networks](#Deep Sparse Rectifier Neural Networks) <br />
+[DelugeNets: Deep Networks with Massive and Flexible Cross-layer Information Inflows](#DelugeNets) <br />
 [Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images](#Detection and 3D Pose Estimation) <br />
 [Exploring Person Context and Local Scene Context for Object Detection](#Context for ObjDet) <br />
 [FaceNet: A Unified Embedding for Face Recognition and Clustering](#FaceNet) <br />
