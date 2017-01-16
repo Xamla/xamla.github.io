@@ -11,6 +11,14 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="StackGAN"></a>[StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1612.03242)
+
+(H. Zhang, T. Xu, H. Li, S. Zhang, X. Huang, X. Wang and D. Metaxas; 10 Dec 2016)
+
+Python/Tensorflow-Implementierung auf GitHub: [https://github.com/hanzhanggit/StackGAN](https://github.com/hanzhanggit/StackGAN) <br />
+Kommentare auf reddit: [https://www.reddit.com/r/MachineLearning/comments/5i23wt/r_stackgan_text_to_photorealistic_image_synthesis/](https://www.reddit.com/r/MachineLearning/comments/5i23wt/r_stackgan_text_to_photorealistic_image_synthesis/)
+
+
 #### <a name="DelugeNets"></a>[DelugeNets: Deep Networks with Massive and Flexible Cross-layer Information Inflows](https://arxiv.org/abs/1611.05552)
 
 (J. Kuen, X. Kong and G. Wang; 17 Nov 2016)
@@ -620,6 +628,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Spatial Transformer Networks](#Spatial Transformer Networks) <br />
 [Speed learning on the fly](#SpeedLearning) <br />
 [Stacked What-Where Auto-encoders](#Stacked What-Where Auto-encoders) <br />
+[StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](#StackGAN) <br />
 [Systematic evaluation of CNN advances on the ImageNet](#CNN advances) <br />
 [Train faster, generalize better: Stability of stochastic gradient descent](#Stability of SGD) <br />
 [Understanding the Bias-Variance Tradeoff](#Bias-Variance Tradeoff) <br />
