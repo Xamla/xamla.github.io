@@ -11,6 +11,13 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="IcGAN"></a>[Invertible Conditional GANs for image editing](https://arxiv.org/abs/1611.06355)
+
+(G. Perarnau, J. van de Weijer, B. Raducanu and J. M. Álvarez; 19 Nov 2016)
+
+Torch-Implementierung auf GitHub: [https://github.com/Guim3/IcGAN](https://github.com/Guim3/IcGAN) <br />
+
+
 #### <a name="StackGAN"></a>[StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1612.03242)
 
 (H. Zhang, T. Xu, H. Li, S. Zhang, X. Huang, X. Wang and D. Metaxas; 10 Dec 2016)
@@ -19,12 +26,27 @@ Python/Tensorflow-Implementierung auf GitHub: [https://github.com/hanzhanggit/St
 Kommentare auf reddit: [https://www.reddit.com/r/MachineLearning/comments/5i23wt/r_stackgan_text_to_photorealistic_image_synthesis/](https://www.reddit.com/r/MachineLearning/comments/5i23wt/r_stackgan_text_to_photorealistic_image_synthesis/)
 
 
+#### <a name="GAN Tutorial"></a>[NIPS 2016 Tutorial: Generative Adversarial Networks](https://arxiv.org/abs/1701.00160)
+
+(I. Goodfellow; 31 Dec 2016)
+
+Kommentare auf reddit: [https://www.reddit.com/r/MachineLearning/comments/5lpgn8/r_nips_2016_tutorial_generative_adversarial/](https://www.reddit.com/r/MachineLearning/comments/5lpgn8/r_nips_2016_tutorial_generative_adversarial/)
+
+
+#### <a name="Hyperband"></a>[Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](https://arxiv.org/abs/1603.06560)
+
+(L. Li, K. Jamieson, G. DeSalvo, A. Rostamizadeh and A. Talwalkar; 21 Mar 2016)
+
+See also: [https://people.eecs.berkeley.edu/~kjamieson/hyperband.html](https://people.eecs.berkeley.edu/~kjamieson/hyperband.html) <br />
+Python-Code auf GitHub: [https://github.com/lishal/hyperband_benchmarks](https://github.com/lishal/hyperband_benchmarks)
+
+
 #### <a name="DelugeNets"></a>[DelugeNets: Deep Networks with Massive and Flexible Cross-layer Information Inflows](https://arxiv.org/abs/1611.05552)
 
 (J. Kuen, X. Kong and G. Wang; 17 Nov 2016)
 
 Torch-Implementierung auf GitHub: [https://github.com/xternalz/DelugeNets](https://github.com/xternalz/DelugeNets) <br />
-GitXiv-Link: [http://www.gitxiv.com/posts/2xngbbYekco87DySH/delugenets-deep-networks-with-massive-and-flexible-cross](http://www.gitxiv.com/posts/2xngbbYekco87DySH/delugenets-deep-networks-with-massive-and-flexible-cross)
+GitXiv-Link: [http://www.gitxiv.com/posts/2xngbbYekco87DySH/delugenets-deep-networks-with-massive-and-flexible-cross](http://www.gitxiv.com/posts/2xngbbYekco87DySH/delugenets-deep-networks-with-massive-and-flexible-cross) <br />
 Kommentare auf reddit: [https://www.reddit.com/r/MachineLearning/comments/5l0k6w/r_delugenets_deep_networks_with_massive_and/](https://www.reddit.com/r/MachineLearning/comments/5l0k6w/r_delugenets_deep_networks_with_massive_and/)
 
 
@@ -584,10 +606,12 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Gradient-based Hyperparameter Optimization through Reversible Learning](#HyperparamOpt) <br />
 [Grid Long Short-Term Memory](#Grid LSTM) <br />
 [Human-level control through deep reinforcement learning](#Atari2) <br />
+[Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](#Hyperband) <br />
 [Identity Mappings in Deep Residual Networks](#ResNet with pre-activation) <br />
 [ImageNet Classification with Deep Convolutional Neural Networks](#AlexNet) <br />
 [Image-to-Image Translation with Conditional Adversarial Networks](#pix2pix) <br />
 [Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks](#Inside-Outside Net) <br />
+[Invertible Conditional GANs for image editing](#IcGAN) <br />
 [Large Scale Distributed Deep Networks](#Large Scale Distributed Deep Networks) <br />
 [Learning a Predictable and Generative Vector Representation for Objects](#Vector Representation for Objects) <br />
 [Learning both Weights and Connections for Efficient Neural Networks](#Weights and Connections Learning) <br />
@@ -605,6 +629,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Multi-column deep neural network for traffic sign classification](#Traffic Sign Classification) <br />
 [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](#Street View House Numbers) <br />
 [Network In Network](#NiN) <br />
+[NIPS 2016 Tutorial: Generative Adversarial Networks](#GAN Tutorial) <br />
 [On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models](#Learning to think) <br />
 [On the importance of initialization and momentum in deep learning](#Initialization and Momentum) <br />
 [Particular object retrieval with integral max-pooling of CNN activations](#Particular object retrieval with integral max-pooling of CNN activations) <br />
