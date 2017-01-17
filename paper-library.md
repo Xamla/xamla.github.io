@@ -22,6 +22,8 @@ Torch-Implementierung auf GitHub: [https://github.com/Guim3/IcGAN](https://githu
 
 (H. Zhang, T. Xu, H. Li, S. Zhang, X. Huang, X. Wang and D. Metaxas; 10 Dec 2016)
 
+*Das in diesem Paper beschriebene "stacked Generative Adversarial Network" (StackGAN) besteht aus zwei hintereinander geschalteten ("stacked") Generator-Diskriminator-Netzen (GANs) und dient der Generierung von fotorealistischen Bildern aus Testbeschreibungen. Der Prozess der Bildgenerierung wird dabei in zwei einfachere Unterprozesse zerlegt: Das sogenannte "Stage-I GAN" erzeugt in Abhängigkeit von der Textbeschreibung zunächst ein niedrig aufgelöstes Bild mit der groben Objektform und den grundlegenden Objektfarben. Hintergrundbereiche werden aus einem zufälligen "Noise-Vektor", der von einer A-Priori-Verteilung gezogen wurde, erzeugt. Das darauffolgende "Stage-II GAN" generiert nun basierend auf dem zuvor erzeugten niedrig aufgelösten Bild und der entsprechenden Textbeschreibung ein hoch aufgelöstes Bild. Da die groben Farben und Formen des Bildes in der zweiten Phase bereits generiert sind, kann sich das Stage-II GAN nun auf die Ojektdetails und das Erkennen und Ausbessern von Fehlern im Bild konzentrieren ...*
+
 Python/Tensorflow-Implementierung auf GitHub: [https://github.com/hanzhanggit/StackGAN](https://github.com/hanzhanggit/StackGAN) <br />
 Kommentare auf reddit: [https://www.reddit.com/r/MachineLearning/comments/5i23wt/r_stackgan_text_to_photorealistic_image_synthesis/](https://www.reddit.com/r/MachineLearning/comments/5i23wt/r_stackgan_text_to_photorealistic_image_synthesis/)
 
