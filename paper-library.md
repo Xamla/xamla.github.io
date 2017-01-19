@@ -11,6 +11,14 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="DDPG"></a>[Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
+
+(Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra; 9 Sep 2015)
+
+siehe auch: [http://pemami4911.github.io/blog/2016/08/21/ddpg-rl.html](http://pemami4911.github.io/blog/2016/08/21/ddpg-rl.html) <br />
+
+
+
 #### <a name="IcGAN"></a>[Invertible Conditional GANs for image editing](https://arxiv.org/abs/1611.06355)
 
 (G. Perarnau, J. van de Weijer, B. Raducanu and J. M. Álvarez; 19 Nov 2016)
