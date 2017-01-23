@@ -13,10 +13,9 @@ mathjax: true
 
 #### <a name="DDPG"></a>[Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
 
-(Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra; 9 Sep 2015)
+(T. P. Lillicrap, J. J. Hunt, A. Pritzel, N. Heess, T. Erez, Y. Tassa, D. Silver and D. Wierstra; 9 Sep 2015)
 
 siehe auch: [http://pemami4911.github.io/blog/2016/08/21/ddpg-rl.html](http://pemami4911.github.io/blog/2016/08/21/ddpg-rl.html) <br />
-
 
 
 #### <a name="IcGAN"></a>[Invertible Conditional GANs for image editing](https://arxiv.org/abs/1611.06355)
@@ -603,6 +602,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [A New Method to Visualize Deep Neural Networks](#Visualize DNNs) <br />
 [A robust, coarse-to-ﬁne trafﬁc sign detection method](#Traffic Sign Detection) <br />
 [Building High-level Features Using Large Scale Unsupervised Learning](#High-level Features via Unsupervised Learning) <br />
+[Continuous control with deep reinforcement learning](#DDPG) <br />
 [Convolutional Neural Networks for joint object detection and pose estimation: A comparative study](#CNNs for object detection and pose estimation) <br />
 [Cross Modal Distillation for Supervision Transfer](#RCNN-Depth-New) <br />
 [Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition](#MNIST) <br />
