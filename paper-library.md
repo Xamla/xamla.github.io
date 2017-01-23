@@ -18,6 +18,34 @@ mathjax: true
 siehe auch: [http://pemami4911.github.io/blog/2016/08/21/ddpg-rl.html](http://pemami4911.github.io/blog/2016/08/21/ddpg-rl.html) <br />
 
 
+#### <a name="Early Visual Concept Learning"></a>[Early Visual Concept Learning with Unsupervised Deep Learning](https://arxiv.org/abs/1606.05579)
+
+(I. Higgins, L. Matthey, X. Glorot, A. Pal, B. Uria, C. Blundell, S. Mohamed and A. Lerchner; 17 Jun 2016)
+
+siehe auch:  <br />
+
+
+#### <a name="Double Backprop"></a>[Improving generalization performance using double backpropagation](http://yann.lecun.com/exdb/publis/pdf/drucker-lecun-92.pdf)
+
+(H. Drucker and Y. L. Cun; 6 Nov 1992)
+
+siehe auch:  <br />
+
+
+#### <a name="Unrolled GANs"></a>[Unrolled Generative Adversarial Networks](https://arxiv.org/abs/1611.02163)
+
+(Luke Metz, Ben Poole, David Pfau, Jascha Sohl-Dickstein; 7 Nov 2016)
+
+siehe auch:  <br />
+
+
+#### <a name="Fast Predictive Image Registration"></a>[Fast Predictive Image Registration](https://arxiv.org/abs/1607.02504)
+
+(X. Yang, R. Kwitt and M. Niethammer; 8 Jul 2016)
+
+siehe auch:  <br />
+
+
 #### <a name="IcGAN"></a>[Invertible Conditional GANs for image editing](https://arxiv.org/abs/1611.06355)
 
 (G. Perarnau, J. van de Weijer, B. Raducanu and J. M. Álvarez; 19 Nov 2016)
@@ -616,10 +644,12 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Deep Sparse Rectifier Neural Networks](#Deep Sparse Rectifier Neural Networks) <br />
 [DelugeNets: Deep Networks with Massive and Flexible Cross-layer Information Inflows](#DelugeNets) <br />
 [Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images](#Detection and 3D Pose Estimation) <br />
+[Early Visual Concept Learning with Unsupervised Deep Learning](#Early Visual Concept Learning) <br />
 [Exploring Person Context and Local Scene Context for Object Detection](#Context for ObjDet) <br />
 [FaceNet: A Unified Embedding for Face Recognition and Clustering](#FaceNet) <br />
 [Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](#ELUs) <br />
 [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](#Faster R-CNN) <br />
+[Fast Predictive Image Registration](#Fast Predictive Image Registration) <br />
 [Fast R-CNN](#Fast R-CNN) <br />
 [Fractional Max-Pooling](#Fractional Max-Pooling) <br />
 [Freeze-Thaw Bayesian Optimization](#Freeze-Thaw Bayesian Optimization) <br />
@@ -631,6 +661,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Identity Mappings in Deep Residual Networks](#ResNet with pre-activation) <br />
 [ImageNet Classification with Deep Convolutional Neural Networks](#AlexNet) <br />
 [Image-to-Image Translation with Conditional Adversarial Networks](#pix2pix) <br />
+[Improving generalization performance using double backpropagation](#Double Backprop) <br />
 [Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks](#Inside-Outside Net) <br />
 [Invertible Conditional GANs for image editing](#IcGAN) <br />
 [Large Scale Distributed Deep Networks](#Large Scale Distributed Deep Networks) <br />
@@ -679,6 +710,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Train faster, generalize better: Stability of stochastic gradient descent](#Stability of SGD) <br />
 [Understanding the Bias-Variance Tradeoff](#Bias-Variance Tradeoff) <br />
 [Understanding the difﬁculty of training deep feedforward neural networks](#Difficulty of Training DNN) <br />
+[Unrolled Generative Adversarial Networks](#Unrolled GANs) <br />
 [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](#DCGAN) <br />
 [Very Deep Convolutional Networks for Large-Scale Image Recognition](#VGG) <br />
 [Visualizing and Understanding Convolutional Networks](#ZFNet) <br />
