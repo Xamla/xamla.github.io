@@ -11,9 +11,19 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="Asynchronous Methods for Deep RL"></a>[Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
+
+(V. Mnih, A. Puigdomènech B., M. Mirza, A. Graves, T. P. Lillicrap, T. Harley, D. Silver and K. Kavukcuoglu; 4 Feb 2016)
+
+
+#### <a name="Generalized Advantage Estimation"></a>[High-Dimensional Continuous Control Using Generalized Advantage Estimation](https://arxiv.org/abs/1506.02438)
+
+(J. Schulman, P. Moritz, S. Levine, M. Jordan and P. Abbeel; 8 Jun 2015)
+
+
 #### <a name="The Predictron"></a>[The Predictron: End-To-End Learning and Planning](https://arxiv.org/abs/1612.08810)
 
-(David Silver, Hado van Hasselt, Matteo Hessel, Tom Schaul, Arthur Guez, Tim Harley, Gabriel Dulac-Arnold, David Reichert, Neil Rabinowitz, Andre Barreto, Thomas Degris; 20 Jan 2017)
+(D. Silver, H. van Hasselt, M. Hessel, T. Schaul, A. Guez, T. Harley, G. Dulac-Arnold, D. Reichert, N. Rabinowitz, A. Barreto and T. Degris; 20 Jan 2017)
 
 
 #### <a name="DDPG"></a>[Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
@@ -637,6 +647,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [A MultiPath Network for Object Detection](#A MultiPath Network for Object Detection) <br />
 [A New Method to Visualize Deep Neural Networks](#Visualize DNNs) <br />
 [A robust, coarse-to-ﬁne trafﬁc sign detection method](#Traffic Sign Detection) <br />
+[Asynchronous Methods for Deep Reinforcement Learning](#Asynchronous Methods for Deep RL) <br />
 [Building High-level Features Using Large Scale Unsupervised Learning](#High-level Features via Unsupervised Learning) <br />
 [Continuous control with deep reinforcement learning](#DDPG) <br />
 [Convolutional Neural Networks for joint object detection and pose estimation: A comparative study](#CNNs for object detection and pose estimation) <br />
@@ -664,6 +675,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Going Deeper with Convolutions](#GoogLeNet) <br />
 [Gradient-based Hyperparameter Optimization through Reversible Learning](#HyperparamOpt) <br />
 [Grid Long Short-Term Memory](#Grid LSTM) <br />
+[High-Dimensional Continuous Control Using Generalized Advantage Estimation](#Generalized Advantage Estimation) <br />
 [Human-level control through deep reinforcement learning](#Atari2) <br />
 [Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](#Hyperband) <br />
 [Identity Mappings in Deep Residual Networks](#ResNet with pre-activation) <br />
