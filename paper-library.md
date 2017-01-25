@@ -11,6 +11,13 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="Connecting GANs and Actor-Critic"></a>[Connecting Generative Adversarial Networks and Actor-Critic Methods](https://arxiv.org/abs/1610.01945)
+
+(D. Pfau and O. Vinyals; 6 Oct 2016)
+
+*Auf den ersten Blick werden erstmal nur die Gemeinsamkeiten beider Verfahren besprochen, jedoch noch keine praktische Verknüpfung durchgeführt. ... Bearbeitung wird noch fortgesetzt ...*
+
+
 #### <a name="Asynchronous Methods for Deep RL"></a>[Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
 
 (V. Mnih, A. Puigdomènech B., M. Mirza, A. Graves, T. P. Lillicrap, T. Harley, D. Silver and K. Kavukcuoglu; 4 Feb 2016)
