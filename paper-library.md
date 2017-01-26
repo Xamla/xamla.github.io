@@ -18,6 +18,16 @@ mathjax: true
 *Auf den ersten Blick werden erstmal nur die Gemeinsamkeiten beider Verfahren besprochen, jedoch noch keine praktische Verknüpfung durchgeführt. ... Bearbeitung wird noch fortgesetzt ...*
 
 
+#### <a name="GA3C"></a>[GA3C: GPU-based A3C for Deep Reinforcement Learning](https://arxiv.org/abs/1611.06256)
+
+(M. Babaeizadeh, I. Frosio, S. Tyree, J. Clemons and J. Kautz; 18 Nov 2016)
+
+<br />
+
+Siehe auch: [Reinforcement Learning Through Asynchronous Advantage Actor-Critic on a GPU](https://openreview.net/pdf?id=r1VGvBcxl) <br />
+Code auf GitHub: [GA3C](https://github.com/NVlabs/GA3C) <br />
+
+
 #### <a name="Asynchronous Methods for Deep RL"></a>[Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
 
 (V. Mnih, A. Puigdomènech B., M. Mirza, A. Graves, T. P. Lillicrap, T. Harley, D. Silver and K. Kavukcuoglu; 4 Feb 2016)
@@ -30,7 +40,7 @@ mathjax: true
 *Es wird ein modell-freier "Policy-Gradient-Ansatz" mit neuronalen Netzen als Funktionsapproximatoren betrachtet. Daraus ergeben sich im Wesentlichen zwei Probleme: 1.) die große Anzahl benötigter "Samples", und 2.) die Schwierigkeit im Erzeugen stabiler Lösungen bei sich verändernden Eingangsdaten. Um das erste dieser Probleme zu lösen, wird ein sogenannter "Generalized Advantage Estimator (GAE)" eingeführt: Ein exponentiell gewichteter Schätzer für die "Advantage-Funktion" (Q-Funktion - V-Funktion), der die Varianz erheblich reduziert und gleichzeitig den Bias aber auf einem akzeptablen Level lässt. Die Konstruktion des "Advantage-Funktion"-Schätzers hat große Ähnlichkeit mit der TD(lambda)-Schätzung der "Value-Funktion" und hängt von zwei verschiedenen Parametern ab, von denen der Eine (gamma) hauptsächlich die Skalierung der Value-Funktion bestimmt, während der Andere (lambda) eher von der Genauigkeit der Value-Funktion abhängt. Für Werte von lambda zwischen 0 und 1 beschreibt der GAE einen Kompromiss zwischen Bias und Varianz (lambda = 1 -> hohe Varianz, lambda = 0 -> niedrige Varianz, aber höherer Bias). Empirisch gefundene Werte für lambda und gamma zeigen, dass lambda wesentlich kleiner gewählt werden sollte als gamma. Zur Lösung des zweiten Problems (Generierung stabiler Lösungen) wird eine [Trust Region-Optimierung](https://de.wikipedia.org/wiki/Trust-Region-Verfahren) für sowohl die Policy, als auch die Value-Funktion verwendet (beide Funktionen sind hier durch neuronale Netze modelliert). Die Autoren weisen darauf hin, dass das oben beschriebene Varianz-Reduktions-Verfahren für Policy-Gradients bereits in [früheren Arbeiten](https://www.semanticscholar.org/paper/An-Analysis-of-Actor-Critic-Algorithms-Using-Kimura-Kobayashi/cbc8222a177cb07e8aa1176af5809eb175f94d3f) formuliert wurde. Hier wird dieses Verfahren (welches sie GAE nennen) jedoch theoretisch und experimentell analysiert, wodurch die Kombination mit einem allgemeineren Set von Algorithmen (wie dem hier verwendeten Batch Trust Region-Algorithmus) ermöglicht wird. Praktische Ergebnisse werden für 3D Locomotion-Tasks mit zwei- und vier-beinigen, simulierten Robotern gezeigt. Dazu wird die Physiksimulation [MuJoCo](http://www.mujoco.org/) (= Multi-Joint dynamics with Contact) verwendet. Außerdem wird eine Policy gelernt, die es einem zweibeinigen Roboter erlaubt, aus liegendem Zustand aufzustehen (siehe auch entsprechendes [Videomaterial](https://sites.google.com/site/gaepapersupp/)). Für die Zukunft wünschen sich die Autoren eine automatische Parameterbestimmung für gamma und lambda, sowie einen detaillierten Vergleich mit dem unten beschriebenen [DDPG-Algorithmus](#DDPG) - ein konkurrierender Ansatz mit "One-Step Return" (d.h. lambda=0), der hier zu hohem Bias und schlechter "Performance" geführt hat, in unten beschriebener Arbeit aber mit entsprechenden Network-Tuning-Tricks ("Experience Replay", "Target-Netze", etc.) sehr gute Erbebnisse erzielt hat.* <br />
 
 Entsprechender Python-Code von J. Schulman: [https://github.com/joschu/modular_rl](https://github.com/joschu/modular_rl) <br />
-siehe auch: [https://gym.openai.com/envs/Ant-v1](https://gym.openai.com/envs/Ant-v1) <br />
+Siehe auch: [https://gym.openai.com/envs/Ant-v1](https://gym.openai.com/envs/Ant-v1) <br />
 
 #### <a name="The Predictron"></a>[The Predictron: End-To-End Learning and Planning](https://arxiv.org/abs/1612.08810)
 
@@ -689,6 +699,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Fast R-CNN](#Fast R-CNN) <br />
 [Fractional Max-Pooling](#Fractional Max-Pooling) <br />
 [Freeze-Thaw Bayesian Optimization](#Freeze-Thaw Bayesian Optimization) <br />
+[GA3C: GPU-based A3C for Deep Reinforcement Learning](#GA3C) <br />
 [Going Deeper with Convolutions](#GoogLeNet) <br />
 [Gradient-based Hyperparameter Optimization through Reversible Learning](#HyperparamOpt) <br />
 [Grid Long Short-Term Memory](#Grid LSTM) <br />
