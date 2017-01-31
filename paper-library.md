@@ -70,6 +70,8 @@ Sehr hilfreicher Blog Post von P. Emami: [Deep Deterministic Policy Gradients (D
 
 (I. Higgins, L. Matthey, X. Glorot, A. Pal, B. Uria, C. Blundell, S. Mohamed and A. Lerchner; 17 Jun 2016)
 
+*Hier wird eine biologisch motivierte Gewichtung des A Priori-Regularisierungsterms im Variational Autoencoder (VAE) eingeführt. (Bei dem A Priori-Regularisierungsterm im VAE handelt es sich um die Kullback-Leibler Divergenz zwischen tatsächlicher, bedingter Verteilung der latenten Variablen und gewünschter A Priori-Verteilung, meist die Standard-Normalverteilung, der latenten Variablen.) Durch die Gewichtung des VAE-Regularisierungsterms (des sogenannten "variational Bound") mit möglichst optimalem Gewicht (i.d.R. > 1) wird eine entzerrte ("disentangled") latente Repräsentation gelernt. In dieser entzerrten latenten Repräsentation sind einzelne latente Variablen besonders sensitiv gegenüber Änderungen einzelner generativer Faktoren, während sie durch Änderungen aller übrigen generativen Faktoren weigehend unbeeinflusst bleiben. Es wird darauf hingewiesen, dass die VAE-Rekonstruktionsqualität ein schlechter Indikator für die gelernte Entflechtung latenter Variablen ist. Vielmehr liefern gut entzerrte latente Repräsentationen oftmals nur verschwommene Rekonstrutionen. ... wird fortgesetzt ...*
+
 siehe auch:  <br />
 
 
