@@ -11,6 +11,13 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="Wasserstein GAN"></a>[Wasserstein GAN](https://arxiv.org/abs/1701.07875)
+
+(M. Arjovsky, S. Chintala and L. Bottou; 26 Jan 2017)
+
+**
+
+
 #### <a name="Connecting GANs and Actor-Critic"></a>[Connecting Generative Adversarial Networks and Actor-Critic Methods](https://arxiv.org/abs/1610.01945)
 
 (D. Pfau and O. Vinyals; 6 Oct 2016)
@@ -775,3 +782,4 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](#DCGAN) <br />
 [Very Deep Convolutional Networks for Large-Scale Image Recognition](#VGG) <br />
 [Visualizing and Understanding Convolutional Networks](#ZFNet) <br />
+[Wasserstein GAN](#Wasserstein GAN) <br />
