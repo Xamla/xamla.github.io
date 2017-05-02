@@ -11,11 +11,21 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="UNREAL"></a>[Reinforcement Learning with Unsupervised Auxiliary Tasks](https://arxiv.org/abs/1611.05397)
+
+(M. Jaderberg, V. Mnih, W. M. Czarnecki, T. Schaul, J. Z. Leibo, D. Silver and K. Kavukcuoglu; 16 Nov 2016)
+
+*...* <br />
+
+Entsprechender Blog Post: [https://deepmind.com/blog/reinforcement-learning-unsupervised-auxiliary-tasks//](https://deepmind.com/blog/reinforcement-learning-unsupervised-auxiliary-tasks/) <br />
+Some GitHub Code: [https://github.com/miyosuda/unreal](https://github.com/miyosuda/unreal) <br />
+
+
 #### <a name="ES Alternative to RL"></a>[Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/abs/1703.03864)
 
 (T. Salimans, J. Ho, X. Chen and I. Sutskever; 10 Mar 2017)
 
-*...* <br />
+*In diesem Paper werden Evolutionäre Algorithmen, sogenannte "Evolution Strategies" (ES), als Alternative zu aktuellen Reinforcement Learning (RL) Strategien, wie Q-Learning und Policy Gradient, untersucht. Es wird gezeigt, dass Evolutionäre Strategien in den schwierigsten, aktuell lösbaren Problemen mit Reinforcement Learning konkurrieren können. Experimente umfassen stetige Robotersteuerungsprobleme aus ["OpenAI Gym"]() wie 2D/3D Hüpfen und Laufen, simuliert mit der Physiksimulation ["MuJoCo"](http://www.mujoco.org/), sowie verschiedene Atari-Spiele. Hier werden aktuelle RL-Techniken wie Trust Region Policy Optimization (TRPO) und A3C mit ES verglichen. Die Experimente belegen, dass ES eine durchaus geeignete Lösungsstrategie für RL-Probleme darstellt, die sehr gut mit der Zahl der CPUs skaliert. Evolutionäre Algorithmen sind Ableitungs-freie, heuristische Such-Verfahren, wobei in dieser Arbeit speziell sie sogenannten "Natural Evolution Strategies" (NES) zum Einsatz kommen. Exploration wird bei RL und ES unterschiedlich umgesetzt: Bei RL werden Aktionen von einer stochastischen Policy gezogen, und bei ES werden verschiedene Parametrisierungen der Policy gezogen. RL-Verfahren wie Policy Gradient fügen also Rauschen in den "Action-Space" ein, während Evolutionäre Verfahren das Rauschen direkt in den Parameter-Raum (also in die Parametrisierung der Policy) einfügen. Insgesamt können mehrere Vorteile von Evolutionären Algorithmen herausgestellt werden: Der wichtigste Punkt ist, dass sie stark parallelisierbar sind, weil keine vollen Gradienten, sondern lediglich das skalare Ergebnis und der "random Seed" zwischen den Prozessen ausgetauscht werden müssen ("low communication bandwidth requirement"). Ein besonders beeindruckendes Ergebnis ist hier, dass der Task des 3D humanoiden Laufens verteilt auf 80 Maschinen und 1440 CPUs mit ES in nur 10 Minuten gelöst werden kann, während RL einen Tag zur Lösung dieses Tasks benötigt. Als weitere Vorteile werden die Invarianz bzgl. "Action Frequency" und verzögerten Rewards, sowie ein besseres exploratives Verhalten genannt. In dem Task des 3D humanoiden Laufens wurden z.B. auch seitwärts und rückwärts gerichtete Laufstrategien mit ES gelernt, die mit RL (hier: TRPO) nie beobachtet wurden. ...* <br />
 
 Entsprechender Blog Post: [https://blog.openai.com/evolution-strategies/](https://blog.openai.com/evolution-strategies/) <br />
 Code auf GitHub: [https://github.com/openai/evolution-strategies-starter](https://github.com/openai/evolution-strategies-starter) <br />
