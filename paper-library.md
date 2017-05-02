@@ -11,9 +11,19 @@ mathjax: true
 ## Papers with description:
 
 
+#### <a name="ES Alternative to RL"></a>[Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/abs/1703.03864)
+
+(T. Salimans, J. Ho, X. Chen and I. Sutskever; 10 Mar 2017)
+
+*...* <br />
+
+Entsprechender Blog Post: [https://blog.openai.com/evolution-strategies/](https://blog.openai.com/evolution-strategies/) <br />
+Code auf GitHub: [https://github.com/openai/evolution-strategies-starter](https://github.com/openai/evolution-strategies-starter) <br />
+
+
 #### <a name="Learning Invariant Feature Spaces to Transfer Skills with Reinforcement Learning"></a>[Learning Invariant Feature Spaces to Transfer Skills with Reinforcement Learning](https://arxiv.org/abs/1703.02949)
 
-(Abhishek Gupta, Coline Devin, YuXuan Liu, Pieter Abbeel, Sergey Levine; 8 Mar 2017)
+(A. Gupta, C. Devin, Y. Liu, P. Abbeel and S. Levine; 8 Mar 2017)
 
 *Allgemein gesprochen wird in diesem Paper untersucht, wie mittels "Reinforcement Learning" Fähigkeiten zwischen morphologisch verschiedenen Agenten (z.B. einem 3-Achsen-Roboterarm und einem 4-Achsen-Roboterarm) übertragen werden können. Die Idee ist es, ähnliche Fähigkeiten (sogenannte "Proxy Skills"), die beide Agenten bereits erlernt haben, zu nutzen, um einen invarianten Feature-Space zu trainieren, der wiederum verwendet wird, um neue Skills von einem Agenten zum Anderen zu übertragen.* 
 *Mit Hilfe der Fähigkeiten, die bereits von beiden Agenten erlernt wurden, kann jeder Agent ein Mapping seiner States in einen invarianten Feature-Space generieren. Dieser invariante Feature-Space ermöglicht es dann jedem Agenten, eine neue Fähigkeit von dem jeweils anderen Agenten zu erlernen. Dazu wird das Ausführen der neuen Fähigkeit in den invarianten Feature-Space projiziert und die korrespondierenden Features durch eigene Actions nachverfolgt. Der invariante Feature-Space dient der Modellierung einer Reward-Funktion, die es dem lernenden Agenten erlaubt, nur solche Aspekte des lehrenden Agenten zu imitieren, die gegenüber den morphologischen Unterschieden (z.B. 3 vs. 4 Achsen) invariant sind. 
@@ -728,6 +738,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [DelugeNets: Deep Networks with Massive and Flexible Cross-layer Information Inflows](#DelugeNets) <br />
 [Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images](#Detection and 3D Pose Estimation) <br />
 [Early Visual Concept Learning with Unsupervised Deep Learning](#Early Visual Concept Learning) <br />
+[Evolution Strategies as a Scalable Alternative to Reinforcement Learning](#ES Alternative to RL) <br />
 [Exploring Person Context and Local Scene Context for Object Detection](#Context for ObjDet) <br />
 [FaceNet: A Unified Embedding for Face Recognition and Clustering](#FaceNet) <br />
 [Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](#ELUs) <br />
@@ -756,6 +767,7 @@ Winner of the MICCAI 2013 Grand Challenge on Mitosis Detection
 [Learning Deconvolution Network for Semantic Segmentation](#Deconv) <br />
 [Learning Descriptors for Object Recognition and 3D Pose Estimation](#Learning Descriptors for Object Recognition and 3D Pose Estimation) <br />
 [Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection](#Hand-Eye Coordination via DL) <br />
+[Learning Invariant Feature Spaces to Transfer Skills with Reinforcement Learning](#Learning Invariant Feature Spaces to Transfer Skills with Reinforcement Learning) <br />
 [Learning Rich Features from RGB-D Images for Object Detection and Segmentation](#RCNN-Depth) <br />
 [Learning to Segment Object Candidates](#Learning to Segment Object Candidates) <br />
 [Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders](#Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders) <br />
